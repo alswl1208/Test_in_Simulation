@@ -1,0 +1,39 @@
+#VRML_SIM R2023b utf8
+
+PROTO SalusSuite [
+    field  SFVec3f     translation      0 0 0
+    field  SFRotation  rotation         0 0 1 0
+    field  SFString    name             "SalusSuite"
+    field  SFString    controller       "<generic> "
+]
+{
+    Robot {
+        translation IS translation
+        rotation IS rotation
+        name IS name
+        controller IS controller
+        children [
+            DEF RICOH_THETA Camera {
+                translation 0 0 1.0
+                rotation 0 0 1 1.5708 # z-axis 90 degree
+                name "360_camera"
+                width 1280
+                height 800 
+                projection "cylindrical"
+                fieldOfView 6.2832
+                children [
+                    Shape {
+                        appearance PBRAppearance {
+                        baseColor 0.5 0.5 0.5
+                        roughness 1
+                        metalness 1
+                        }
+                        geometry Box {
+                        size 0.029 0.0517 0.1362 # Ricoh Theta Spec: 29.0 mm (D) x 51.7 mm(W) x 136.2 mm (H) 
+                        }
+                    }         
+                ]         
+            }
+        ] 
+    }
+}
