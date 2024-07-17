@@ -1,0 +1,101 @@
+[0.009s] Invoking command in '/home/minji/minji_ws/build/webots_ros2_driver': AMENT_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/minji/minji_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/minji/minji_ws/webots_ros2/webots_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/minji/minji_ws/install/webots_ros2_driver
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.097s] -- The CXX compiler identification is GNU 11.4.0
+[0.101s] -- Detecting C compiler ABI info
+[0.156s] -- Detecting C compiler ABI info - done
+[0.162s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.218s] -- Detecting CXX compiler ABI info - done
+[0.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.223s] -- Detecting CXX compile features
+[0.224s] -- Detecting CXX compile features - done
+[0.225s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.332s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.402s] -- Found rosgraph_msgs: 1.2.1 (/opt/ros/humble/share/rosgraph_msgs/cmake)
+[0.441s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.445s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.450s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.459s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.514s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.569s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.572s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.651s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.671s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.703s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.712s] -- Looking for pthread.h
+[0.762s] -- Looking for pthread.h - found
+[0.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.826s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.827s] -- Found Threads: TRUE  
+[0.931s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.954s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.042s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.056s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.057s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.057s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.320s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[1.365s] -- Found webots_ros2_msgs: 2023.1.2 (/home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake)
+[1.444s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.643s] -- Found Python: /usr/include/python3.10 (found suitable exact version "3.10.12") found components: Development Development.Module Development.Embed 
+[1.849s] -- Configuring done
+[1.866s] -- Generating done
+[1.868s] -- Build files have been written to: /home/minji/minji_ws/build/webots_ros2_driver
+[1.876s] Invoked command in '/home/minji/minji_ws/build/webots_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/minji/minji_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/minji/minji_ws/webots_ros2/webots_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/minji/minji_ws/install/webots_ros2_driver
+[1.877s] Invoking command in '/home/minji/minji_ws/build/webots_ros2_driver': AMENT_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/minji/minji_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/minji/minji_ws/build/webots_ros2_driver -- -j8 -l8
+[1.923s] [  0%] Built target ament_cmake_python_copy_vehicle
+[1.923s] [  0%] Built target ament_cmake_python_copy_webots_ros2_driver
+[1.925s] [  0%] Built target ament_cmake_python_copy_controller
+[2.114s] running egg_info
+[2.114s] running egg_info
+[2.115s] creating webots_ros2_driver.egg-info
+[2.115s] writing webots_ros2_driver.egg-info/PKG-INFO
+[2.115s] creating vehicle.egg-info
+[2.115s] writing dependency_links to webots_ros2_driver.egg-info/dependency_links.txt
+[2.115s] writing top-level names to webots_ros2_driver.egg-info/top_level.txt
+[2.115s] writing vehicle.egg-info/PKG-INFO
+[2.115s] writing manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[2.115s] writing dependency_links to vehicle.egg-info/dependency_links.txt
+[2.115s] writing top-level names to vehicle.egg-info/top_level.txt
+[2.116s] writing manifest file 'vehicle.egg-info/SOURCES.txt'
+[2.116s] running egg_info
+[2.117s] creating controller.egg-info
+[2.117s] reading manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[2.117s] writing controller.egg-info/PKG-INFO
+[2.117s] writing dependency_links to controller.egg-info/dependency_links.txt
+[2.117s] writing top-level names to controller.egg-info/top_level.txt
+[2.117s] writing manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'
+[2.117s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[2.117s] reading manifest file 'vehicle.egg-info/SOURCES.txt'
+[2.118s] writing manifest file 'vehicle.egg-info/SOURCES.txt'
+[2.119s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[2.120s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[2.142s] [  0%] Built target ament_cmake_python_build_webots_ros2_driver_egg
+[2.143s] [  0%] Built target ament_cmake_python_build_vehicle_egg
+[2.145s] [  0%] Built target ament_cmake_python_build_controller_egg
+[15.616s] [  0%] Built target compile-lib-controller
+[15.792s] [  0%] Built target compile-generic-window
+[16.955s] [  0%] Built target compile-lib-vehicle
+[16.972s] [ 22%] [32mBuilding CXX object CMakeFiles/driver.dir/src/WebotsNode.cpp.o[0m
+[16.972s] [ 22%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/utils/Utils.cpp.o[0m
+[16.972s] [ 22%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/plugins/dynamic/Ros2IMU.cpp.o[0m
+[16.972s] [ 22%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_rgbd.dir/src/plugins/dynamic/Ros2RGBD.cpp.o[0m
+[16.972s] [ 25%] [32mBuilding CXX object CMakeFiles/driver.dir/src/Driver.cpp.o[0m
+[16.972s] [ 25%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/plugins/Ros2SensorPlugin.cpp.o[0m
+[16.972s] [ 29%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_rgbd.dir/src/utils/Utils.cpp.o[0m
+[16.973s] [ 22%] [32mBuilding CXX object CMakeFiles/webots_ros2_driver_rgbd.dir/src/plugins/Ros2SensorPlugin.cpp.o[0m
+[17.405s] [ 33%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/Ros2SensorPlugin.cpp.o[0m
+[17.407s] [ 37%] [32mBuilding CXX object CMakeFiles/driver.dir/src/PythonPlugin.cpp.o[0m
+[22.551s] [ 40%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Lidar.cpp.o[0m
+[22.551s] [ 44%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2LED.cpp.o[0m
+[22.579s] [ 48%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Pen.cpp.o[0m
+[22.862s] [ 51%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o[0m
+[22.919s] [ 55%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2GPS.cpp.o[0m
+[25.064s] [ 59%] [32m[1mLinking CXX shared library libwebots_ros2_driver_imu.so[0m
+[25.147s] [ 62%] [32m[1mLinking CXX shared library libwebots_ros2_driver_rgbd.so[0m
+[25.491s] [ 62%] Built target webots_ros2_driver_imu
+[25.503s] [ 66%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2RangeFinder.cpp.o[0m
+[25.506s] [ 66%] Built target webots_ros2_driver_rgbd
+[25.518s] [ 70%] [32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2DistanceSensor.cpp.o[0m

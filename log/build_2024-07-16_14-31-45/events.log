@@ -1,0 +1,1074 @@
+[0.000000] (-) TimerEvent: {}
+[0.000204] (webots_ros2_msgs) JobQueued: {'identifier': 'webots_ros2_msgs', 'dependencies': OrderedDict()}
+[0.000293] (webots_ros2_driver) JobQueued: {'identifier': 'webots_ros2_driver', 'dependencies': OrderedDict([('webots_ros2_msgs', '/home/minji/minji_ws/install/webots_ros2_msgs')])}
+[0.000310] (webots_ros2_control) JobQueued: {'identifier': 'webots_ros2_control', 'dependencies': OrderedDict([('webots_ros2_msgs', '/home/minji/minji_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/minji/minji_ws/install/webots_ros2_driver')])}
+[0.000324] (webots_ros2_ld90) JobQueued: {'identifier': 'webots_ros2_ld90', 'dependencies': OrderedDict([('webots_ros2_msgs', '/home/minji/minji_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/minji/minji_ws/install/webots_ros2_driver')])}
+[0.000339] (webots_ros2_mavic) JobQueued: {'identifier': 'webots_ros2_mavic', 'dependencies': OrderedDict([('webots_ros2_msgs', '/home/minji/minji_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/minji/minji_ws/install/webots_ros2_driver')])}
+[0.000352] (webots_ros2_tesla) JobQueued: {'identifier': 'webots_ros2_tesla', 'dependencies': OrderedDict([('webots_ros2_msgs', '/home/minji/minji_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/minji/minji_ws/install/webots_ros2_driver')])}
+[0.000362] (webots_ros2_epuck) JobQueued: {'identifier': 'webots_ros2_epuck', 'dependencies': OrderedDict([('webots_ros2_msgs', '/home/minji/minji_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/minji/minji_ws/install/webots_ros2_driver'), ('webots_ros2_control', '/home/minji/minji_ws/install/webots_ros2_control')])}
+[0.000374] (webots_ros2_tiago) JobQueued: {'identifier': 'webots_ros2_tiago', 'dependencies': OrderedDict([('webots_ros2_msgs', '/home/minji/minji_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/minji/minji_ws/install/webots_ros2_driver'), ('webots_ros2_control', '/home/minji/minji_ws/install/webots_ros2_control')])}
+[0.000385] (webots_ros2_turtlebot) JobQueued: {'identifier': 'webots_ros2_turtlebot', 'dependencies': OrderedDict([('webots_ros2_msgs', '/home/minji/minji_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/minji/minji_ws/install/webots_ros2_driver'), ('webots_ros2_control', '/home/minji/minji_ws/install/webots_ros2_control')])}
+[0.000396] (webots_ros2_universal_robot) JobQueued: {'identifier': 'webots_ros2_universal_robot', 'dependencies': OrderedDict([('webots_ros2_msgs', '/home/minji/minji_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/minji/minji_ws/install/webots_ros2_driver'), ('webots_ros2_control', '/home/minji/minji_ws/install/webots_ros2_control')])}
+[0.000406] (webots_ros2_tests) JobQueued: {'identifier': 'webots_ros2_tests', 'dependencies': OrderedDict([('webots_ros2_msgs', '/home/minji/minji_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/minji/minji_ws/install/webots_ros2_driver'), ('webots_ros2_control', '/home/minji/minji_ws/install/webots_ros2_control'), ('webots_ros2_mavic', '/home/minji/minji_ws/install/webots_ros2_mavic'), ('webots_ros2_tesla', '/home/minji/minji_ws/install/webots_ros2_tesla'), ('webots_ros2_epuck', '/home/minji/minji_ws/install/webots_ros2_epuck'), ('webots_ros2_tiago', '/home/minji/minji_ws/install/webots_ros2_tiago'), ('webots_ros2_turtlebot', '/home/minji/minji_ws/install/webots_ros2_turtlebot'), ('webots_ros2_universal_robot', '/home/minji/minji_ws/install/webots_ros2_universal_robot')])}
+[0.000423] (webots_ros2) JobQueued: {'identifier': 'webots_ros2', 'dependencies': OrderedDict([('webots_ros2_msgs', '/home/minji/minji_ws/install/webots_ros2_msgs'), ('webots_ros2_driver', '/home/minji/minji_ws/install/webots_ros2_driver'), ('webots_ros2_control', '/home/minji/minji_ws/install/webots_ros2_control'), ('webots_ros2_mavic', '/home/minji/minji_ws/install/webots_ros2_mavic'), ('webots_ros2_tesla', '/home/minji/minji_ws/install/webots_ros2_tesla'), ('webots_ros2_epuck', '/home/minji/minji_ws/install/webots_ros2_epuck'), ('webots_ros2_tiago', '/home/minji/minji_ws/install/webots_ros2_tiago'), ('webots_ros2_turtlebot', '/home/minji/minji_ws/install/webots_ros2_turtlebot'), ('webots_ros2_universal_robot', '/home/minji/minji_ws/install/webots_ros2_universal_robot'), ('webots_ros2_tests', '/home/minji/minji_ws/install/webots_ros2_tests')])}
+[0.000493] (webots_ros2_msgs) JobStarted: {'identifier': 'webots_ros2_msgs'}
+[0.007800] (webots_ros2_msgs) JobProgress: {'identifier': 'webots_ros2_msgs', 'progress': 'cmake'}
+[0.007889] (webots_ros2_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/minji/minji_ws/webots_ros2/webots_ros2_msgs', '-DCMAKE_INSTALL_PREFIX=/home/minji/minji_ws/install/webots_ros2_msgs'], 'cwd': '/home/minji/minji_ws/build/webots_ros2_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHONIOENCODING', 'UTF-8'), ('LANGUAGE', 'en_US:en'), ('USER', 'minji'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/minji/minji_ws/webots_ros2'), ('HOME', '/home/minji'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ZSH', '/home/minji/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1429'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1589'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '72896'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'minji'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:31221'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'minji'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/minji-950XDB-951XDB-950XDY:@/tmp/.ICE-unix/1559,unix/minji-950XDB-951XDB-950XDY:/tmp/.ICE-unix/1559'), ('PAPERSIZE', 'a4'), ('INVOCATION_ID', 'a0569665f2b848bc831fe99a9b899d67'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GNOME_SETUP_DISPLAY', ':1'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L6OZQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DOMAIN_ID', '2'), ('TERMINATOR_UUID', 'urn:uuid:345f4b3f-a76a-451e-bf29-0172f2da6171'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/minji/minji_ws/build/webots_ros2_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/webots/lib/controller/python'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/usr/local:/opt/ros/humble')]), 'shell': False}
+[0.097944] (webots_ros2_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099661] (-) TimerEvent: {}
+[0.154286] (webots_ros2_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.161687] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199792] (-) TimerEvent: {}
+[0.210658] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.215464] (webots_ros2_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.215603] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.215911] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.218528] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.275153] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.280321] (webots_ros2_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.280398] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.280625] (webots_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.289139] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299947] (-) TimerEvent: {}
+[0.400257] (-) TimerEvent: {}
+[0.407989] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.482198] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.500408] (-) TimerEvent: {}
+[0.519839] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.524891] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.533776] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.548786] (webots_ros2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.566699] (webots_ros2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.582458] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.591410] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.600565] (-) TimerEvent: {}
+[0.666380] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)\n'}
+[0.700745] (-) TimerEvent: {}
+[0.801072] (-) TimerEvent: {}
+[0.901384] (-) TimerEvent: {}
+[0.971875] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[0.974866] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[0.978444] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[0.981280] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.001540] (-) TimerEvent: {}
+[1.101841] (-) TimerEvent: {}
+[1.202184] (-) TimerEvent: {}
+[1.287620] (webots_ros2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.302334] (-) TimerEvent: {}
+[1.402581] (-) TimerEvent: {}
+[1.408385] (webots_ros2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.424834] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.426423] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.446336] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.446478] (webots_ros2_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.446531] (webots_ros2_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.446581] (webots_ros2_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.461156] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.502749] (-) TimerEvent: {}
+[1.508335] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[1.510648] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[1.513527] (webots_ros2_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.528070] (webots_ros2_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.528540] (webots_ros2_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.530199] (webots_ros2_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.565748] (webots_ros2_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.567333] (webots_ros2_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/minji/minji_ws/build/webots_ros2_msgs\n'}
+[1.575140] (webots_ros2_msgs) CommandEnded: {'returncode': 0}
+[1.575673] (webots_ros2_msgs) JobProgress: {'identifier': 'webots_ros2_msgs', 'progress': 'build'}
+[1.575696] (webots_ros2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/minji/minji_ws/build/webots_ros2_msgs', '--', '-j8', '-l8'], 'cwd': '/home/minji/minji_ws/build/webots_ros2_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHONIOENCODING', 'UTF-8'), ('LANGUAGE', 'en_US:en'), ('USER', 'minji'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/minji/minji_ws/webots_ros2'), ('HOME', '/home/minji'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ZSH', '/home/minji/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1429'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1589'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '72896'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'minji'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:31221'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'minji'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/minji-950XDB-951XDB-950XDY:@/tmp/.ICE-unix/1559,unix/minji-950XDB-951XDB-950XDY:/tmp/.ICE-unix/1559'), ('PAPERSIZE', 'a4'), ('INVOCATION_ID', 'a0569665f2b848bc831fe99a9b899d67'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GNOME_SETUP_DISPLAY', ':1'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L6OZQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DOMAIN_ID', '2'), ('TERMINATOR_UUID', 'urn:uuid:345f4b3f-a76a-451e-bf29-0172f2da6171'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/minji/minji_ws/build/webots_ros2_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/webots/lib/controller/python'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/usr/local:/opt/ros/humble')]), 'shell': False}
+[1.602934] (-) TimerEvent: {}
+[1.604525] (webots_ros2_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.612247] (webots_ros2_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.617697] (webots_ros2_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_webots_ros2_msgs\n'}
+[1.703117] (-) TimerEvent: {}
+[1.803464] (-) TimerEvent: {}
+[1.807480] (webots_ros2_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.807794] (webots_ros2_msgs) StdoutLine: {'line': b'creating webots_ros2_msgs.egg-info\n'}
+[1.808008] (webots_ros2_msgs) StdoutLine: {'line': b'writing webots_ros2_msgs.egg-info/PKG-INFO\n'}
+[1.808099] (webots_ros2_msgs) StdoutLine: {'line': b'writing dependency_links to webots_ros2_msgs.egg-info/dependency_links.txt\n'}
+[1.808167] (webots_ros2_msgs) StdoutLine: {'line': b'writing top-level names to webots_ros2_msgs.egg-info/top_level.txt\n'}
+[1.808341] (webots_ros2_msgs) StdoutLine: {'line': b"writing manifest file 'webots_ros2_msgs.egg-info/SOURCES.txt'\n"}
+[1.810036] (webots_ros2_msgs) StdoutLine: {'line': b"reading manifest file 'webots_ros2_msgs.egg-info/SOURCES.txt'\n"}
+[1.810343] (webots_ros2_msgs) StdoutLine: {'line': b"writing manifest file 'webots_ros2_msgs.egg-info/SOURCES.txt'\n"}
+[1.829266] (webots_ros2_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_webots_ros2_msgs_egg\n'}
+[1.903664] (-) TimerEvent: {}
+[2.004005] (-) TimerEvent: {}
+[2.104360] (-) TimerEvent: {}
+[2.204730] (-) TimerEvent: {}
+[2.267204] (webots_ros2_msgs) StdoutLine: {'line': b'[  1%] Built target webots_ros2_msgs__cpp\n'}
+[2.276149] (webots_ros2_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.276374] (webots_ros2_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.276457] (webots_ros2_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.304843] (-) TimerEvent: {}
+[2.381044] (webots_ros2_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/camera_recognition_object__functions.c.o\x1b[0m\n'}
+[2.381252] (webots_ros2_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/bool_stamped__functions.c.o\x1b[0m\n'}
+[2.381324] (webots_ros2_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/string_stamped__functions.c.o\x1b[0m\n'}
+[2.381383] (webots_ros2_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/float_stamped__functions.c.o\x1b[0m\n'}
+[2.381487] (webots_ros2_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/camera_recognition_objects__functions.c.o\x1b[0m\n'}
+[2.404932] (-) TimerEvent: {}
+[2.446323] (webots_ros2_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/urdf_robot__functions.c.o\x1b[0m\n'}
+[2.448369] (webots_ros2_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/msg/detail/pen_ink_properties__functions.c.o\x1b[0m\n'}
+[2.452056] (webots_ros2_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/emitter_send_string__functions.c.o\x1b[0m\n'}
+[2.452291] (webots_ros2_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/get_bool__functions.c.o\x1b[0m\n'}
+[2.453630] (webots_ros2_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/set_string__functions.c.o\x1b[0m\n'}
+[2.505046] (-) TimerEvent: {}
+[2.505289] (webots_ros2_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/spawn_node_from_string__functions.c.o\x1b[0m\n'}
+[2.505441] (webots_ros2_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/webots_ros2_msgs/srv/detail/spawn_urdf_robot__functions.c.o\x1b[0m\n'}
+[2.567474] (webots_ros2_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libwebots_ros2_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.599764] (webots_ros2_msgs) StdoutLine: {'line': b'[ 14%] Built target webots_ros2_msgs__rosidl_generator_c\n'}
+[2.605140] (-) TimerEvent: {}
+[2.607963] (webots_ros2_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.611016] (webots_ros2_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.611199] (webots_ros2_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.705254] (-) TimerEvent: {}
+[2.805588] (-) TimerEvent: {}
+[2.833494] (webots_ros2_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/msg/string_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.833903] (webots_ros2_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/msg/float_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.834377] (webots_ros2_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/msg/bool_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.905681] (-) TimerEvent: {}
+[3.005974] (-) TimerEvent: {}
+[3.106268] (-) TimerEvent: {}
+[3.173956] (webots_ros2_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/msg/camera_recognition_object__type_support.cpp.o\x1b[0m\n'}
+[3.181932] (webots_ros2_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/msg/camera_recognition_objects__type_support.cpp.o\x1b[0m\n'}
+[3.206363] (-) TimerEvent: {}
+[3.225207] (webots_ros2_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/msg/urdf_robot__type_support.cpp.o\x1b[0m\n'}
+[3.306464] (-) TimerEvent: {}
+[3.306851] (webots_ros2_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/bool_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.316184] (webots_ros2_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/msg/detail/bool_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.406572] (-) TimerEvent: {}
+[3.461216] (webots_ros2_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/msg/bool_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.499039] (webots_ros2_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/msg/float_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.501677] (webots_ros2_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/msg/string_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.506675] (-) TimerEvent: {}
+[3.507234] (webots_ros2_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/msg/pen_ink_properties__type_support.cpp.o\x1b[0m\n'}
+[3.536466] (webots_ros2_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/srv/emitter_send_string__type_support.cpp.o\x1b[0m\n'}
+[3.536944] (webots_ros2_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/msg/camera_recognition_object__type_support.cpp.o\x1b[0m\n'}
+[3.539219] (webots_ros2_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/srv/get_bool__type_support.cpp.o\x1b[0m\n'}
+[3.575191] (webots_ros2_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/msg/camera_recognition_objects__type_support.cpp.o\x1b[0m\n'}
+[3.606782] (-) TimerEvent: {}
+[3.614518] (webots_ros2_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/msg/urdf_robot__type_support.cpp.o\x1b[0m\n'}
+[3.650638] (webots_ros2_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/msg/pen_ink_properties__type_support.cpp.o\x1b[0m\n'}
+[3.686114] (webots_ros2_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/srv/emitter_send_string__type_support.cpp.o\x1b[0m\n'}
+[3.706902] (-) TimerEvent: {}
+[3.723985] (webots_ros2_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/srv/get_bool__type_support.cpp.o\x1b[0m\n'}
+[3.766342] (webots_ros2_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/srv/set_string__type_support.cpp.o\x1b[0m\n'}
+[3.796693] (webots_ros2_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/msg/detail/float_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.801537] (webots_ros2_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/srv/spawn_node_from_string__type_support.cpp.o\x1b[0m\n'}
+[3.807019] (-) TimerEvent: {}
+[3.808041] (webots_ros2_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/float_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.819733] (webots_ros2_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/srv/set_string__type_support.cpp.o\x1b[0m\n'}
+[3.837939] (webots_ros2_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/webots_ros2_msgs/srv/spawn_urdf_robot__type_support.cpp.o\x1b[0m\n'}
+[3.850157] (webots_ros2_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/msg/detail/bool_stamped__type_support.c.o\x1b[0m\n'}
+[3.865331] (webots_ros2_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/srv/spawn_node_from_string__type_support.cpp.o\x1b[0m\n'}
+[3.871016] (webots_ros2_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/webots_ros2_msgs/srv/spawn_urdf_robot__type_support.cpp.o\x1b[0m\n'}
+[3.874850] (webots_ros2_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libwebots_ros2_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.892405] (webots_ros2_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/msg/detail/float_stamped__type_support.c.o\x1b[0m\n'}
+[3.907138] (-) TimerEvent: {}
+[3.928722] (webots_ros2_msgs) StdoutLine: {'line': b'[ 43%] Built target webots_ros2_msgs__rosidl_typesupport_c\n'}
+[3.938522] (webots_ros2_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/string_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.939603] (webots_ros2_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/msg/detail/string_stamped__type_support.c.o\x1b[0m\n'}
+[3.976442] (webots_ros2_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/msg/detail/bool_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[3.982355] (webots_ros2_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support.c.o\x1b[0m\n'}
+[4.007251] (-) TimerEvent: {}
+[4.035724] (webots_ros2_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support.c.o\x1b[0m\n'}
+[4.084146] (webots_ros2_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/msg/detail/urdf_robot__type_support.c.o\x1b[0m\n'}
+[4.107367] (-) TimerEvent: {}
+[4.126081] (webots_ros2_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/msg/detail/pen_ink_properties__type_support.c.o\x1b[0m\n'}
+[4.142318] (webots_ros2_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/msg/detail/float_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[4.165572] (webots_ros2_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/srv/detail/emitter_send_string__type_support.c.o\x1b[0m\n'}
+[4.185469] (webots_ros2_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/srv/detail/get_bool__type_support.c.o\x1b[0m\n'}
+[4.194988] (webots_ros2_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libwebots_ros2_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.207481] (-) TimerEvent: {}
+[4.216795] (webots_ros2_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/srv/detail/set_string__type_support.c.o\x1b[0m\n'}
+[4.245509] (webots_ros2_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/srv/detail/spawn_node_from_string__type_support.c.o\x1b[0m\n'}
+[4.246627] (webots_ros2_msgs) StdoutLine: {'line': b'[ 54%] Built target webots_ros2_msgs__rosidl_typesupport_cpp\n'}
+[4.246829] (webots_ros2_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/msg/detail/string_stamped__type_support.cpp.o\x1b[0m\n'}
+[4.257348] (webots_ros2_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/webots_ros2_msgs/srv/detail/spawn_urdf_robot__type_support.c.o\x1b[0m\n'}
+[4.260835] (webots_ros2_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support.cpp.o\x1b[0m\n'}
+[4.263337] (webots_ros2_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/camera_recognition_object__type_support.cpp.o\x1b[0m\n'}
+[4.303203] (webots_ros2_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/camera_recognition_objects__type_support.cpp.o\x1b[0m\n'}
+[4.306946] (webots_ros2_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libwebots_ros2_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.307541] (-) TimerEvent: {}
+[4.353271] (webots_ros2_msgs) StdoutLine: {'line': b'[ 60%] Built target webots_ros2_msgs__rosidl_typesupport_introspection_c\n'}
+[4.365169] (webots_ros2_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/urdf_robot__type_support.cpp.o\x1b[0m\n'}
+[4.386177] (webots_ros2_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/msg/detail/string_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[4.407665] (-) TimerEvent: {}
+[4.415032] (webots_ros2_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/msg/detail/dds_fastrtps/pen_ink_properties__type_support.cpp.o\x1b[0m\n'}
+[4.507790] (-) TimerEvent: {}
+[4.540442] (webots_ros2_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support_c.cpp.o\x1b[0m\n'}
+[4.607906] (-) TimerEvent: {}
+[4.708234] (-) TimerEvent: {}
+[4.719489] (webots_ros2_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support.cpp.o\x1b[0m\n'}
+[4.801285] (webots_ros2_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/msg/detail/urdf_robot__type_support.cpp.o\x1b[0m\n'}
+[4.808349] (-) TimerEvent: {}
+[4.811286] (webots_ros2_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/srv/detail/dds_fastrtps/emitter_send_string__type_support.cpp.o\x1b[0m\n'}
+[4.856033] (webots_ros2_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/srv/detail/dds_fastrtps/get_bool__type_support.cpp.o\x1b[0m\n'}
+[4.868980] (webots_ros2_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support_c.cpp.o\x1b[0m\n'}
+[4.884197] (webots_ros2_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/srv/detail/dds_fastrtps/set_string__type_support.cpp.o\x1b[0m\n'}
+[4.908457] (-) TimerEvent: {}
+[4.910624] (webots_ros2_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/srv/detail/dds_fastrtps/spawn_node_from_string__type_support.cpp.o\x1b[0m\n'}
+[4.972322] (webots_ros2_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/msg/detail/urdf_robot__type_support_c.cpp.o\x1b[0m\n'}
+[5.008580] (-) TimerEvent: {}
+[5.108924] (-) TimerEvent: {}
+[5.209326] (-) TimerEvent: {}
+[5.309695] (-) TimerEvent: {}
+[5.394947] (webots_ros2_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/msg/detail/pen_ink_properties__type_support.cpp.o\x1b[0m\n'}
+[5.403156] (webots_ros2_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/msg/detail/pen_ink_properties__type_support_c.cpp.o\x1b[0m\n'}
+[5.409812] (-) TimerEvent: {}
+[5.428409] (webots_ros2_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/srv/detail/emitter_send_string__type_support.cpp.o\x1b[0m\n'}
+[5.449534] (webots_ros2_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/webots_ros2_msgs/srv/detail/dds_fastrtps/spawn_urdf_robot__type_support.cpp.o\x1b[0m\n'}
+[5.470427] (webots_ros2_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/srv/detail/get_bool__type_support.cpp.o\x1b[0m\n'}
+[5.509938] (-) TimerEvent: {}
+[5.524162] (webots_ros2_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/srv/detail/set_string__type_support.cpp.o\x1b[0m\n'}
+[5.553650] (webots_ros2_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/srv/detail/emitter_send_string__type_support_c.cpp.o\x1b[0m\n'}
+[5.574226] (webots_ros2_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/srv/detail/spawn_node_from_string__type_support.cpp.o\x1b[0m\n'}
+[5.610068] (-) TimerEvent: {}
+[5.710457] (-) TimerEvent: {}
+[5.810841] (-) TimerEvent: {}
+[5.911235] (-) TimerEvent: {}
+[5.993657] (webots_ros2_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/srv/detail/get_bool__type_support_c.cpp.o\x1b[0m\n'}
+[6.011360] (-) TimerEvent: {}
+[6.081455] (webots_ros2_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/webots_ros2_msgs/srv/detail/spawn_urdf_robot__type_support.cpp.o\x1b[0m\n'}
+[6.111487] (-) TimerEvent: {}
+[6.116966] (webots_ros2_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/srv/detail/set_string__type_support_c.cpp.o\x1b[0m\n'}
+[6.129301] (webots_ros2_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/srv/detail/spawn_node_from_string__type_support_c.cpp.o\x1b[0m\n'}
+[6.164680] (webots_ros2_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libwebots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.170971] (webots_ros2_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/webots_ros2_msgs/srv/detail/spawn_urdf_robot__type_support_c.cpp.o\x1b[0m\n'}
+[6.211611] (-) TimerEvent: {}
+[6.291847] (webots_ros2_msgs) StdoutLine: {'line': b'[ 81%] Built target webots_ros2_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.311735] (-) TimerEvent: {}
+[6.412136] (-) TimerEvent: {}
+[6.512652] (-) TimerEvent: {}
+[6.613068] (-) TimerEvent: {}
+[6.641448] (webots_ros2_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libwebots_ros2_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.689136] (webots_ros2_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libwebots_ros2_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.713184] (-) TimerEvent: {}
+[6.732394] (webots_ros2_msgs) StdoutLine: {'line': b'[ 83%] Built target webots_ros2_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.778955] (webots_ros2_msgs) StdoutLine: {'line': b'[ 83%] Built target webots_ros2_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.805309] (webots_ros2_msgs) StdoutLine: {'line': b'[ 83%] Built target webots_ros2_msgs\n'}
+[6.813388] (-) TimerEvent: {}
+[6.838657] (webots_ros2_msgs) StdoutLine: {'line': b'[ 84%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.913501] (-) TimerEvent: {}
+[7.013809] (-) TimerEvent: {}
+[7.114239] (-) TimerEvent: {}
+[7.214673] (-) TimerEvent: {}
+[7.315084] (-) TimerEvent: {}
+[7.415458] (-) TimerEvent: {}
+[7.515855] (-) TimerEvent: {}
+[7.616253] (-) TimerEvent: {}
+[7.716657] (-) TimerEvent: {}
+[7.817069] (-) TimerEvent: {}
+[7.917406] (-) TimerEvent: {}
+[8.017752] (-) TimerEvent: {}
+[8.118154] (-) TimerEvent: {}
+[8.218542] (-) TimerEvent: {}
+[8.318962] (-) TimerEvent: {}
+[8.419416] (-) TimerEvent: {}
+[8.519840] (-) TimerEvent: {}
+[8.620254] (-) TimerEvent: {}
+[8.709470] (webots_ros2_msgs) StdoutLine: {'line': b'[ 84%] Built target webots_ros2_msgs__py\n'}
+[8.720382] (-) TimerEvent: {}
+[8.733955] (webots_ros2_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/msg/_bool_stamped_s.c.o\x1b[0m\n'}
+[8.734285] (webots_ros2_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/msg/_float_stamped_s.c.o\x1b[0m\n'}
+[8.734407] (webots_ros2_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/msg/_string_stamped_s.c.o\x1b[0m\n'}
+[8.734509] (webots_ros2_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/msg/_camera_recognition_object_s.c.o\x1b[0m\n'}
+[8.734739] (webots_ros2_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/msg/_camera_recognition_objects_s.c.o\x1b[0m\n'}
+[8.734899] (webots_ros2_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/msg/_pen_ink_properties_s.c.o\x1b[0m\n'}
+[8.735005] (webots_ros2_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/msg/_urdf_robot_s.c.o\x1b[0m\n'}
+[8.735884] (webots_ros2_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/srv/_emitter_send_string_s.c.o\x1b[0m\n'}
+[8.820528] (-) TimerEvent: {}
+[8.921027] (-) TimerEvent: {}
+[8.941130] (webots_ros2_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/srv/_set_string_s.c.o\x1b[0m\n'}
+[8.941400] (webots_ros2_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/srv/_spawn_urdf_robot_s.c.o\x1b[0m\n'}
+[8.941535] (webots_ros2_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/srv/_get_bool_s.c.o\x1b[0m\n'}
+[8.941693] (webots_ros2_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/webots_ros2_msgs/srv/_spawn_node_from_string_s.c.o\x1b[0m\n'}
+[9.021096] (-) TimerEvent: {}
+[9.060314] (webots_ros2_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/webots_ros2_msgs/libwebots_ros2_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[9.114779] (webots_ros2_msgs) StdoutLine: {'line': b'[ 95%] Built target webots_ros2_msgs__rosidl_generator_py\n'}
+[9.121226] (-) TimerEvent: {}
+[9.149788] (webots_ros2_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/webots_ros2_msgs/_webots_ros2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.150296] (webots_ros2_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/webots_ros2_msgs/_webots_ros2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.150890] (webots_ros2_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/webots_ros2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/webots_ros2_msgs/_webots_ros2_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.221346] (-) TimerEvent: {}
+[9.307001] (webots_ros2_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.307136] (webots_ros2_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.307186] (webots_ros2_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.321455] (-) TimerEvent: {}
+[9.338263] (webots_ros2_msgs) StdoutLine: {'line': b'[100%] Built target webots_ros2_msgs__rosidl_typesupport_c__pyext\n'}
+[9.338401] (webots_ros2_msgs) StdoutLine: {'line': b'[100%] Built target webots_ros2_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[9.338457] (webots_ros2_msgs) StdoutLine: {'line': b'[100%] Built target webots_ros2_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.347026] (webots_ros2_msgs) CommandEnded: {'returncode': 0}
+[9.421679] (-) TimerEvent: {}
+[9.506936] (webots_ros2_msgs) JobProgress: {'identifier': 'webots_ros2_msgs', 'progress': 'install'}
+[9.514084] (webots_ros2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/minji/minji_ws/build/webots_ros2_msgs'], 'cwd': '/home/minji/minji_ws/build/webots_ros2_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHONIOENCODING', 'UTF-8'), ('LANGUAGE', 'en_US:en'), ('USER', 'minji'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/minji/minji_ws/webots_ros2'), ('HOME', '/home/minji'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ZSH', '/home/minji/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1429'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1589'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '72896'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'minji'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:31221'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'minji'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/minji-950XDB-951XDB-950XDY:@/tmp/.ICE-unix/1559,unix/minji-950XDB-951XDB-950XDY:/tmp/.ICE-unix/1559'), ('PAPERSIZE', 'a4'), ('INVOCATION_ID', 'a0569665f2b848bc831fe99a9b899d67'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GNOME_SETUP_DISPLAY', ':1'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L6OZQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DOMAIN_ID', '2'), ('TERMINATOR_UUID', 'urn:uuid:345f4b3f-a76a-451e-bf29-0172f2da6171'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/minji/minji_ws/build/webots_ros2_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/webots/lib/controller/python'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/usr/local:/opt/ros/humble')]), 'shell': False}
+[9.520949] (webots_ros2_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.521118] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/ament_index/resource_index/rosidl_interfaces/webots_ros2_msgs\n'}
+[9.521218] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs\n'}
+[9.521317] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg\n'}
+[9.521380] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/string_stamped.h\n'}
+[9.521459] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/bool_stamped.h\n'}
+[9.521534] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/camera_recognition_objects.h\n'}
+[9.521606] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/pen_ink_properties.h\n'}
+[9.521677] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail\n'}
+[9.521731] (-) TimerEvent: {}
+[9.521832] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__functions.c\n'}
+[9.521908] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__struct.h\n'}
+[9.521964] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__functions.h\n'}
+[9.522043] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__functions.h\n'}
+[9.522097] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__functions.h\n'}
+[9.522174] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__struct.h\n'}
+[9.522228] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__type_support.h\n'}
+[9.522304] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__struct.h\n'}
+[9.522361] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support.h\n'}
+[9.522438] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__functions.c\n'}
+[9.522493] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__functions.h\n'}
+[9.522552] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__functions.c\n'}
+[9.522612] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__functions.c\n'}
+[9.522652] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__struct.h\n'}
+[9.522706] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__type_support.h\n'}
+[9.522761] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__struct.h\n'}
+[9.522989] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__functions.h\n'}
+[9.523111] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__struct.h\n'}
+[9.523167] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__type_support.h\n'}
+[9.523215] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__functions.h\n'}
+[9.523293] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support.h\n'}
+[9.523334] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__struct.h\n'}
+[9.523389] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__functions.c\n'}
+[9.523430] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__functions.c\n'}
+[9.523470] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__functions.c\n'}
+[9.523509] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__functions.h\n'}
+[9.523572] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__type_support.h\n'}
+[9.523614] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__type_support.h\n'}
+[9.523674] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/urdf_robot.h\n'}
+[9.523715] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/camera_recognition_object.h\n'}
+[9.523756] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/float_stamped.h\n'}
+[9.523794] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.523856] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv\n'}
+[9.523897] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/spawn_node_from_string.h\n'}
+[9.523937] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/spawn_urdf_robot.h\n'}
+[9.523975] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/get_bool.h\n'}
+[9.524028] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/set_string.h\n'}
+[9.524091] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail\n'}
+[9.524131] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__struct.h\n'}
+[9.524170] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__functions.h\n'}
+[9.524209] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__functions.c\n'}
+[9.524267] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__functions.c\n'}
+[9.524309] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__struct.h\n'}
+[9.524347] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__type_support.h\n'}
+[9.524407] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__functions.h\n'}
+[9.524450] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__type_support.h\n'}
+[9.524490] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__struct.h\n'}
+[9.524549] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__type_support.h\n'}
+[9.524589] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__type_support.h\n'}
+[9.524638] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__functions.c\n'}
+[9.524678] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__struct.h\n'}
+[9.524733] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__functions.c\n'}
+[9.524772] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__functions.h\n'}
+[9.524830] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__functions.h\n'}
+[9.524869] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__functions.h\n'}
+[9.524922] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__functions.c\n'}
+[9.524973] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__type_support.h\n'}
+[9.525146] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__struct.h\n'}
+[9.525197] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/emitter_send_string.h\n'}
+[9.525242] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/library_path.sh\n'}
+[9.525279] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/library_path.dsv\n'}
+[9.525336] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_generator_c.so\n'}
+[9.525573] (webots_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_generator_c.so" to ""\n'}
+[9.525632] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs\n'}
+[9.525679] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg\n'}
+[9.525718] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.525778] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail\n'}
+[9.525818] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[9.525858] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[9.525916] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[9.525957] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__rosidl_typesupport_fastrtps_c.h\n'}
+[9.526009] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__rosidl_typesupport_fastrtps_c.h\n'}
+[9.526069] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__rosidl_typesupport_fastrtps_c.h\n'}
+[9.526111] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__rosidl_typesupport_fastrtps_c.h\n'}
+[9.526167] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv\n'}
+[9.526232] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail\n'}
+[9.526278] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_c.h\n'}
+[9.526318] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__rosidl_typesupport_fastrtps_c.h\n'}
+[9.526358] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h\n'}
+[9.526416] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__rosidl_typesupport_fastrtps_c.h\n'}
+[9.526470] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__rosidl_typesupport_fastrtps_c.h\n'}
+[9.526509] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[9.526648] (webots_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.526706] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs\n'}
+[9.526747] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg\n'}
+[9.526805] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/bool_stamped.hpp\n'}
+[9.526846] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/camera_recognition_object.hpp\n'}
+[9.526904] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/camera_recognition_objects.hpp\n'}
+[9.526945] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/pen_ink_properties.hpp\n'}
+[9.527002] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/string_stamped.hpp\n'}
+[9.527044] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail\n'}
+[9.527095] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__builder.hpp\n'}
+[9.527154] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__traits.hpp\n'}
+[9.527195] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__builder.hpp\n'}
+[9.527253] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__builder.hpp\n'}
+[9.527294] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__builder.hpp\n'}
+[9.527353] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__traits.hpp\n'}
+[9.527392] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__struct.hpp\n'}
+[9.527449] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__traits.hpp\n'}
+[9.527488] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__struct.hpp\n'}
+[9.527540] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__struct.hpp\n'}
+[9.527596] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__traits.hpp\n'}
+[9.527650] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__struct.hpp\n'}
+[9.527704] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__struct.hpp\n'}
+[9.527758] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__traits.hpp\n'}
+[9.527812] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__struct.hpp\n'}
+[9.527866] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__builder.hpp\n'}
+[9.527920] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__builder.hpp\n'}
+[9.527973] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__traits.hpp\n'}
+[9.528027] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__traits.hpp\n'}
+[9.528081] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__builder.hpp\n'}
+[9.528132] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__struct.hpp\n'}
+[9.528182] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/urdf_robot.hpp\n'}
+[9.528234] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/float_stamped.hpp\n'}
+[9.528282] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv\n'}
+[9.528339] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/spawn_node_from_string.hpp\n'}
+[9.528379] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/emitter_send_string.hpp\n'}
+[9.528436] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/spawn_urdf_robot.hpp\n'}
+[9.528477] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail\n'}
+[9.528534] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__builder.hpp\n'}
+[9.528575] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__traits.hpp\n'}
+[9.528632] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__struct.hpp\n'}
+[9.528671] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__struct.hpp\n'}
+[9.528728] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__struct.hpp\n'}
+[9.528767] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__traits.hpp\n'}
+[9.528819] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__builder.hpp\n'}
+[9.528874] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__struct.hpp\n'}
+[9.528928] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__struct.hpp\n'}
+[9.528983] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__builder.hpp\n'}
+[9.529044] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__traits.hpp\n'}
+[9.529098] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__traits.hpp\n'}
+[9.529152] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__traits.hpp\n'}
+[9.529202] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__builder.hpp\n'}
+[9.529258] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__builder.hpp\n'}
+[9.529312] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/get_bool.hpp\n'}
+[9.529367] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/set_string.hpp\n'}
+[9.529426] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs\n'}
+[9.529468] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg\n'}
+[9.529527] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.529567] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail\n'}
+[9.529617] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.529670] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.529709] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.529766] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.529807] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.529864] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.529911] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.529950] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/dds_fastrtps\n'}
+[9.530007] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv\n'}
+[9.530055] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail\n'}
+[9.530093] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.530132] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.530189] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/dds_fastrtps\n'}
+[9.530230] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.530282] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.530335] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.530389] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.530734] (webots_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.530776] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs\n'}
+[9.530829] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg\n'}
+[9.530891] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.530933] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail\n'}
+[9.530973] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__type_support.c\n'}
+[9.531024] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support.c\n'}
+[9.531087] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__type_support.c\n'}
+[9.531127] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__rosidl_typesupport_introspection_c.h\n'}
+[9.531177] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__rosidl_typesupport_introspection_c.h\n'}
+[9.531218] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__rosidl_typesupport_introspection_c.h\n'}
+[9.531273] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__rosidl_typesupport_introspection_c.h\n'}
+[9.531312] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__rosidl_typesupport_introspection_c.h\n'}
+[9.531370] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__rosidl_typesupport_introspection_c.h\n'}
+[9.531410] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support.c\n'}
+[9.531464] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__type_support.c\n'}
+[9.531513] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__type_support.c\n'}
+[9.531566] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__rosidl_typesupport_introspection_c.h\n'}
+[9.531620] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__type_support.c\n'}
+[9.531681] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv\n'}
+[9.531723] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail\n'}
+[9.531776] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__rosidl_typesupport_introspection_c.h\n'}
+[9.531818] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__type_support.c\n'}
+[9.531871] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__rosidl_typesupport_introspection_c.h\n'}
+[9.531912] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__rosidl_typesupport_introspection_c.h\n'}
+[9.531966] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__type_support.c\n'}
+[9.532022] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_c.h\n'}
+[9.532072] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__rosidl_typesupport_introspection_c.h\n'}
+[9.532142] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__type_support.c\n'}
+[9.532212] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__type_support.c\n'}
+[9.532286] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__type_support.c\n'}
+[9.532392] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_introspection_c.so\n'}
+[9.532587] (webots_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.532643] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_c.so\n'}
+[9.532799] (webots_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_c.so" to ""\n'}
+[9.532858] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs\n'}
+[9.532902] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg\n'}
+[9.532959] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail\n'}
+[9.533003] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.533066] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__type_support.cpp\n'}
+[9.533107] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.533169] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/pen_ink_properties__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.533213] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.533273] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.533316] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_object__type_support.cpp\n'}
+[9.533375] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.533416] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/float_stamped__type_support.cpp\n'}
+[9.533470] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/bool_stamped__type_support.cpp\n'}
+[9.533525] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/urdf_robot__type_support.cpp\n'}
+[9.533581] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/camera_recognition_objects__type_support.cpp\n'}
+[9.533639] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.533692] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/msg/detail/string_stamped__type_support.cpp\n'}
+[9.533746] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv\n'}
+[9.533799] (webots_ros2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail\n'}
+[9.533858] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.533900] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/set_string__type_support.cpp\n'}
+[9.533952] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__type_support.cpp\n'}
+[9.534008] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.534063] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__type_support.cpp\n'}
+[9.534120] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/emitter_send_string__type_support.cpp\n'}
+[9.534176] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.534228] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_urdf_robot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.534284] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/spawn_node_from_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.534341] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/include/webots_ros2_msgs/webots_ros2_msgs/srv/detail/get_bool__type_support.cpp\n'}
+[9.534397] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[9.534738] (webots_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.534796] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_cpp.so\n'}
+[9.534904] (webots_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[9.534961] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/pythonpath.sh\n'}
+[9.535015] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/pythonpath.dsv\n'}
+[9.535071] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs-2023.1.2-py3.10.egg-info\n'}
+[9.535156] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs-2023.1.2-py3.10.egg-info/top_level.txt\n'}
+[9.535209] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs-2023.1.2-py3.10.egg-info/SOURCES.txt\n'}
+[9.535263] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs-2023.1.2-py3.10.egg-info/PKG-INFO\n'}
+[9.535317] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs-2023.1.2-py3.10.egg-info/dependency_links.txt\n'}
+[9.535384] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs\n'}
+[9.535438] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/__init__.py\n'}
+[9.535497] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/_webots_ros2_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.535597] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/_webots_ros2_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[9.535728] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.535818] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.535908] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/_webots_ros2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.536026] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/libwebots_ros2_msgs__rosidl_generator_py.so\n'}
+[9.536137] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg\n'}
+[9.536192] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/__init__.py\n'}
+[9.536247] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_float_stamped.py\n'}
+[9.536301] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_bool_stamped_s.c\n'}
+[9.536355] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_string_stamped_s.c\n'}
+[9.536410] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_camera_recognition_object.py\n'}
+[9.536467] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_camera_recognition_object_s.c\n'}
+[9.536524] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_camera_recognition_objects_s.c\n'}
+[9.536579] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_urdf_robot.py\n'}
+[9.536635] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_float_stamped_s.c\n'}
+[9.536692] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_camera_recognition_objects.py\n'}
+[9.536746] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_pen_ink_properties_s.c\n'}
+[9.536803] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_pen_ink_properties.py\n'}
+[9.536859] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_bool_stamped.py\n'}
+[9.536910] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_string_stamped.py\n'}
+[9.536960] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_urdf_robot_s.c\n'}
+[9.537022] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv\n'}
+[9.537073] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/_get_bool_s.c\n'}
+[9.537125] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/_spawn_urdf_robot.py\n'}
+[9.537179] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/__init__.py\n'}
+[9.537233] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/_emitter_send_string.py\n'}
+[9.537282] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/_spawn_node_from_string_s.c\n'}
+[9.537334] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/_get_bool.py\n'}
+[9.537386] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/_spawn_node_from_string.py\n'}
+[9.537437] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/_emitter_send_string_s.c\n'}
+[9.537492] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/_set_string.py\n'}
+[9.537551] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/_spawn_urdf_robot_s.c\n'}
+[9.537608] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/_set_string_s.c\n'}
+[9.537672] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.572937] (webots_ros2_msgs) StdoutLine: {'line': b"Listing '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs'...\n"}
+[9.573108] (webots_ros2_msgs) StdoutLine: {'line': b"Compiling '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/__init__.py'...\n"}
+[9.573156] (webots_ros2_msgs) StdoutLine: {'line': b"Listing '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg'...\n"}
+[9.573203] (webots_ros2_msgs) StdoutLine: {'line': b"Compiling '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/__init__.py'...\n"}
+[9.573248] (webots_ros2_msgs) StdoutLine: {'line': b"Compiling '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_bool_stamped.py'...\n"}
+[9.573287] (webots_ros2_msgs) StdoutLine: {'line': b"Compiling '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_camera_recognition_object.py'...\n"}
+[9.573329] (webots_ros2_msgs) StdoutLine: {'line': b"Compiling '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_camera_recognition_objects.py'...\n"}
+[9.573368] (webots_ros2_msgs) StdoutLine: {'line': b"Compiling '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_float_stamped.py'...\n"}
+[9.573407] (webots_ros2_msgs) StdoutLine: {'line': b"Compiling '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_pen_ink_properties.py'...\n"}
+[9.573446] (webots_ros2_msgs) StdoutLine: {'line': b"Compiling '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_string_stamped.py'...\n"}
+[9.573486] (webots_ros2_msgs) StdoutLine: {'line': b"Compiling '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/msg/_urdf_robot.py'...\n"}
+[9.573525] (webots_ros2_msgs) StdoutLine: {'line': b"Listing '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv'...\n"}
+[9.573563] (webots_ros2_msgs) StdoutLine: {'line': b"Compiling '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/__init__.py'...\n"}
+[9.573605] (webots_ros2_msgs) StdoutLine: {'line': b"Compiling '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/_emitter_send_string.py'...\n"}
+[9.573643] (webots_ros2_msgs) StdoutLine: {'line': b"Compiling '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/_get_bool.py'...\n"}
+[9.573681] (webots_ros2_msgs) StdoutLine: {'line': b"Compiling '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/_set_string.py'...\n"}
+[9.573720] (webots_ros2_msgs) StdoutLine: {'line': b"Compiling '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/_spawn_node_from_string.py'...\n"}
+[9.573758] (webots_ros2_msgs) StdoutLine: {'line': b"Compiling '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/srv/_spawn_urdf_robot.py'...\n"}
+[9.576385] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.576501] (webots_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.576570] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.576744] (webots_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.576850] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.577125] (webots_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages/webots_ros2_msgs/webots_ros2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.577171] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_generator_py.so\n'}
+[9.577381] (webots_ros2_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/minji/minji_ws/install/webots_ros2_msgs/lib/libwebots_ros2_msgs__rosidl_generator_py.so" to ""\n'}
+[9.577505] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/BoolStamped.idl\n'}
+[9.577546] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/FloatStamped.idl\n'}
+[9.577631] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/StringStamped.idl\n'}
+[9.577729] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/CameraRecognitionObject.idl\n'}
+[9.577836] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/CameraRecognitionObjects.idl\n'}
+[9.577895] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/UrdfRobot.idl\n'}
+[9.577946] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/PenInkProperties.idl\n'}
+[9.578028] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/EmitterSendString.idl\n'}
+[9.578102] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/GetBool.idl\n'}
+[9.578174] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SetString.idl\n'}
+[9.578298] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SpawnNodeFromString.idl\n'}
+[9.578415] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SpawnUrdfRobot.idl\n'}
+[9.578454] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/BoolStamped.msg\n'}
+[9.578549] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/FloatStamped.msg\n'}
+[9.578607] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/StringStamped.msg\n'}
+[9.578664] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/CameraRecognitionObject.msg\n'}
+[9.578801] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/CameraRecognitionObjects.msg\n'}
+[9.578842] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/UrdfRobot.msg\n'}
+[9.578894] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/msg/PenInkProperties.msg\n'}
+[9.578954] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/EmitterSendString.srv\n'}
+[9.579025] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/EmitterSendString_Request.msg\n'}
+[9.579096] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/EmitterSendString_Response.msg\n'}
+[9.579148] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/GetBool.srv\n'}
+[9.579207] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/GetBool_Request.msg\n'}
+[9.579280] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/GetBool_Response.msg\n'}
+[9.579353] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SetString.srv\n'}
+[9.579423] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SetString_Request.msg\n'}
+[9.579496] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SetString_Response.msg\n'}
+[9.579564] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SpawnNodeFromString.srv\n'}
+[9.579640] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SpawnNodeFromString_Request.msg\n'}
+[9.579711] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SpawnNodeFromString_Response.msg\n'}
+[9.579786] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SpawnUrdfRobot.srv\n'}
+[9.579856] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SpawnUrdfRobot_Request.msg\n'}
+[9.579930] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/srv/SpawnUrdfRobot_Response.msg\n'}
+[9.580029] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/ament_index/resource_index/package_run_dependencies/webots_ros2_msgs\n'}
+[9.580128] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/ament_index/resource_index/parent_prefix_path/webots_ros2_msgs\n'}
+[9.580203] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/ament_prefix_path.sh\n'}
+[9.580279] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/ament_prefix_path.dsv\n'}
+[9.580353] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/path.sh\n'}
+[9.580425] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/environment/path.dsv\n'}
+[9.580533] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/local_setup.bash\n'}
+[9.580607] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/local_setup.sh\n'}
+[9.580680] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/local_setup.zsh\n'}
+[9.580754] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/local_setup.dsv\n'}
+[9.580822] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/package.dsv\n'}
+[9.580919] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/ament_index/resource_index/packages/webots_ros2_msgs\n'}
+[9.581026] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_generator_cExport.cmake\n'}
+[9.581110] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.581192] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.581276] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.581358] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_generator_cppExport.cmake\n'}
+[9.581456] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.581522] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.581605] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.581682] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.581768] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_cExport.cmake\n'}
+[9.581847] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.581931] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.582009] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.582094] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[9.582169] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.582252] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_generator_pyExport.cmake\n'}
+[9.582332] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/export_webots_ros2_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.582410] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[9.582491] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.582573] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.582652] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.582732] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.582804] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.582884] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.582962] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgsConfig.cmake\n'}
+[9.583017] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake/webots_ros2_msgsConfig-version.cmake\n'}
+[9.583099] (webots_ros2_msgs) StdoutLine: {'line': b'-- Installing: /home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/package.xml\n'}
+[9.585008] (webots_ros2_msgs) CommandEnded: {'returncode': 0}
+[9.621939] (-) TimerEvent: {}
+[9.722311] (-) TimerEvent: {}
+[9.822396] (webots_ros2_msgs) JobEnded: {'identifier': 'webots_ros2_msgs', 'rc': 0}
+[9.822945] (-) TimerEvent: {}
+[9.823086] (webots_ros2_driver) JobStarted: {'identifier': 'webots_ros2_driver'}
+[9.830302] (webots_ros2_driver) JobProgress: {'identifier': 'webots_ros2_driver', 'progress': 'cmake'}
+[9.830979] (webots_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/minji/minji_ws/webots_ros2/webots_ros2_driver', '-DCMAKE_INSTALL_PREFIX=/home/minji/minji_ws/install/webots_ros2_driver'], 'cwd': '/home/minji/minji_ws/build/webots_ros2_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHONIOENCODING', 'UTF-8'), ('LANGUAGE', 'en_US:en'), ('USER', 'minji'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/minji/minji_ws/install/webots_ros2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/minji/minji_ws/webots_ros2'), ('HOME', '/home/minji'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ZSH', '/home/minji/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1429'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1589'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '72896'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'minji'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:31221'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'minji'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/minji-950XDB-951XDB-950XDY:@/tmp/.ICE-unix/1559,unix/minji-950XDB-951XDB-950XDY:/tmp/.ICE-unix/1559'), ('PAPERSIZE', 'a4'), ('INVOCATION_ID', 'a0569665f2b848bc831fe99a9b899d67'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GNOME_SETUP_DISPLAY', ':1'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L6OZQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/minji/minji_ws/install/webots_ros2_msgs:/opt/ros/humble'), ('ROS_DOMAIN_ID', '2'), ('TERMINATOR_UUID', 'urn:uuid:345f4b3f-a76a-451e-bf29-0172f2da6171'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/minji/minji_ws/build/webots_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/webots/lib/controller/python'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/minji/minji_ws/install/webots_ros2_msgs:/usr/local:/opt/ros/humble')]), 'shell': False}
+[9.880827] (webots_ros2_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[9.919516] (webots_ros2_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[9.923049] (-) TimerEvent: {}
+[9.924172] (webots_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.979260] (webots_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.984968] (webots_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.985075] (webots_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.985551] (webots_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.987441] (webots_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[10.023180] (-) TimerEvent: {}
+[10.041315] (webots_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.046433] (webots_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[10.046512] (webots_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.046765] (webots_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.048345] (webots_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.123357] (-) TimerEvent: {}
+[10.154871] (webots_ros2_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[10.223599] (-) TimerEvent: {}
+[10.225174] (webots_ros2_driver) StdoutLine: {'line': b'-- Found rosgraph_msgs: 1.2.1 (/opt/ros/humble/share/rosgraph_msgs/cmake)\n'}
+[10.264419] (webots_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.267872] (webots_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.273427] (webots_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.282461] (webots_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.295320] (webots_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.323759] (-) TimerEvent: {}
+[10.336559] (webots_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[10.391742] (webots_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.394566] (webots_ros2_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.423943] (-) TimerEvent: {}
+[10.474270] (webots_ros2_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[10.493799] (webots_ros2_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[10.524141] (-) TimerEvent: {}
+[10.525592] (webots_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.535070] (webots_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.584945] (webots_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.585191] (webots_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.624349] (-) TimerEvent: {}
+[10.649012] (webots_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.649898] (webots_ros2_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.724570] (-) TimerEvent: {}
+[10.753845] (webots_ros2_driver) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[10.777217] (webots_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.824724] (-) TimerEvent: {}
+[10.865289] (webots_ros2_driver) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[10.878704] (webots_ros2_driver) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[10.880080] (webots_ros2_driver) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[10.880156] (webots_ros2_driver) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[10.924893] (-) TimerEvent: {}
+[11.025182] (-) TimerEvent: {}
+[11.125549] (-) TimerEvent: {}
+[11.143346] (webots_ros2_driver) StdoutLine: {'line': b'-- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)\n'}
+[11.188148] (webots_ros2_driver) StdoutLine: {'line': b'-- Found webots_ros2_msgs: 2023.1.2 (/home/minji/minji_ws/install/webots_ros2_msgs/share/webots_ros2_msgs/cmake)\n'}
+[11.225709] (-) TimerEvent: {}
+[11.266524] (webots_ros2_driver) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[11.325828] (-) TimerEvent: {}
+[11.426172] (-) TimerEvent: {}
+[11.465918] (webots_ros2_driver) StdoutLine: {'line': b'-- Found Python: /usr/include/python3.10 (found suitable exact version "3.10.12") found components: Development Development.Module Development.Embed \n'}
+[11.526261] (-) TimerEvent: {}
+[11.626574] (-) TimerEvent: {}
+[11.672365] (webots_ros2_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.689221] (webots_ros2_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[11.690737] (webots_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/minji/minji_ws/build/webots_ros2_driver\n'}
+[11.698549] (webots_ros2_driver) CommandEnded: {'returncode': 0}
+[11.699672] (webots_ros2_driver) JobProgress: {'identifier': 'webots_ros2_driver', 'progress': 'build'}
+[11.699706] (webots_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/minji/minji_ws/build/webots_ros2_driver', '--', '-j8', '-l8'], 'cwd': '/home/minji/minji_ws/build/webots_ros2_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHONIOENCODING', 'UTF-8'), ('LANGUAGE', 'en_US:en'), ('USER', 'minji'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/minji/minji_ws/install/webots_ros2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('OLDPWD', '/home/minji/minji_ws/webots_ros2'), ('HOME', '/home/minji'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ZSH', '/home/minji/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1429'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1589'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '72896'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'minji'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:31221'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'minji'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/minji-950XDB-951XDB-950XDY:@/tmp/.ICE-unix/1559,unix/minji-950XDB-951XDB-950XDY:/tmp/.ICE-unix/1559'), ('PAPERSIZE', 'a4'), ('INVOCATION_ID', 'a0569665f2b848bc831fe99a9b899d67'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GNOME_SETUP_DISPLAY', ':1'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L6OZQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/minji/minji_ws/install/webots_ros2_msgs:/opt/ros/humble'), ('ROS_DOMAIN_ID', '2'), ('TERMINATOR_UUID', 'urn:uuid:345f4b3f-a76a-451e-bf29-0172f2da6171'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/minji/minji_ws/build/webots_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/usr/local/webots/lib/controller/python'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/minji/minji_ws/install/webots_ros2_msgs:/usr/local:/opt/ros/humble')]), 'shell': False}
+[11.726706] (-) TimerEvent: {}
+[11.746346] (webots_ros2_driver) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_vehicle\n'}
+[11.746533] (webots_ros2_driver) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_webots_ros2_driver\n'}
+[11.747605] (webots_ros2_driver) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_controller\n'}
+[11.826807] (-) TimerEvent: {}
+[11.927034] (-) TimerEvent: {}
+[11.937227] (webots_ros2_driver) StdoutLine: {'line': b'running egg_info\n'}
+[11.937506] (webots_ros2_driver) StdoutLine: {'line': b'running egg_info\n'}
+[11.937623] (webots_ros2_driver) StdoutLine: {'line': b'creating webots_ros2_driver.egg-info\n'}
+[11.937787] (webots_ros2_driver) StdoutLine: {'line': b'writing webots_ros2_driver.egg-info/PKG-INFO\n'}
+[11.937904] (webots_ros2_driver) StdoutLine: {'line': b'creating vehicle.egg-info\n'}
+[11.937983] (webots_ros2_driver) StdoutLine: {'line': b'writing dependency_links to webots_ros2_driver.egg-info/dependency_links.txt\n'}
+[11.938076] (webots_ros2_driver) StdoutLine: {'line': b'writing top-level names to webots_ros2_driver.egg-info/top_level.txt\n'}
+[11.938257] (webots_ros2_driver) StdoutLine: {'line': b'writing vehicle.egg-info/PKG-INFO\n'}
+[11.938363] (webots_ros2_driver) StdoutLine: {'line': b"writing manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'\n"}
+[11.938436] (webots_ros2_driver) StdoutLine: {'line': b'writing dependency_links to vehicle.egg-info/dependency_links.txt\n'}
+[11.938530] (webots_ros2_driver) StdoutLine: {'line': b'writing top-level names to vehicle.egg-info/top_level.txt\n'}
+[11.938683] (webots_ros2_driver) StdoutLine: {'line': b"writing manifest file 'vehicle.egg-info/SOURCES.txt'\n"}
+[11.939231] (webots_ros2_driver) StdoutLine: {'line': b'running egg_info\n'}
+[11.939659] (webots_ros2_driver) StdoutLine: {'line': b'creating controller.egg-info\n'}
+[11.939781] (webots_ros2_driver) StdoutLine: {'line': b"reading manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'\n"}
+[11.939866] (webots_ros2_driver) StdoutLine: {'line': b'writing controller.egg-info/PKG-INFO\n'}
+[11.939960] (webots_ros2_driver) StdoutLine: {'line': b'writing dependency_links to controller.egg-info/dependency_links.txt\n'}
+[11.940062] (webots_ros2_driver) StdoutLine: {'line': b'writing top-level names to controller.egg-info/top_level.txt\n'}
+[11.940138] (webots_ros2_driver) StdoutLine: {'line': b"writing manifest file 'webots_ros2_driver.egg-info/SOURCES.txt'\n"}
+[11.940228] (webots_ros2_driver) StdoutLine: {'line': b"writing manifest file 'controller.egg-info/SOURCES.txt'\n"}
+[11.940516] (webots_ros2_driver) StdoutLine: {'line': b"reading manifest file 'vehicle.egg-info/SOURCES.txt'\n"}
+[11.940980] (webots_ros2_driver) StdoutLine: {'line': b"writing manifest file 'vehicle.egg-info/SOURCES.txt'\n"}
+[11.942236] (webots_ros2_driver) StdoutLine: {'line': b"reading manifest file 'controller.egg-info/SOURCES.txt'\n"}
+[11.942811] (webots_ros2_driver) StdoutLine: {'line': b"writing manifest file 'controller.egg-info/SOURCES.txt'\n"}
+[11.965389] (webots_ros2_driver) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_webots_ros2_driver_egg\n'}
+[11.965589] (webots_ros2_driver) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_vehicle_egg\n'}
+[11.967799] (webots_ros2_driver) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_controller_egg\n'}
+[12.027260] (-) TimerEvent: {}
+[12.127729] (-) TimerEvent: {}
+[12.228089] (-) TimerEvent: {}
+[12.328452] (-) TimerEvent: {}
+[12.428885] (-) TimerEvent: {}
+[12.529179] (-) TimerEvent: {}
+[12.629461] (-) TimerEvent: {}
+[12.729736] (-) TimerEvent: {}
+[12.830083] (-) TimerEvent: {}
+[12.930741] (-) TimerEvent: {}
+[13.031134] (-) TimerEvent: {}
+[13.131512] (-) TimerEvent: {}
+[13.231792] (-) TimerEvent: {}
+[13.332176] (-) TimerEvent: {}
+[13.432640] (-) TimerEvent: {}
+[13.533056] (-) TimerEvent: {}
+[13.633410] (-) TimerEvent: {}
+[13.733658] (-) TimerEvent: {}
+[13.833941] (-) TimerEvent: {}
+[13.934334] (-) TimerEvent: {}
+[14.034707] (-) TimerEvent: {}
+[14.135048] (-) TimerEvent: {}
+[14.235494] (-) TimerEvent: {}
+[14.335866] (-) TimerEvent: {}
+[14.436232] (-) TimerEvent: {}
+[14.536656] (-) TimerEvent: {}
+[14.637073] (-) TimerEvent: {}
+[14.737375] (-) TimerEvent: {}
+[14.837697] (-) TimerEvent: {}
+[14.938003] (-) TimerEvent: {}
+[15.038325] (-) TimerEvent: {}
+[15.138648] (-) TimerEvent: {}
+[15.238892] (-) TimerEvent: {}
+[15.339231] (-) TimerEvent: {}
+[15.439589] (-) TimerEvent: {}
+[15.539991] (-) TimerEvent: {}
+[15.640361] (-) TimerEvent: {}
+[15.740707] (-) TimerEvent: {}
+[15.841124] (-) TimerEvent: {}
+[15.941446] (-) TimerEvent: {}
+[16.041796] (-) TimerEvent: {}
+[16.142188] (-) TimerEvent: {}
+[16.242518] (-) TimerEvent: {}
+[16.342856] (-) TimerEvent: {}
+[16.443217] (-) TimerEvent: {}
+[16.543656] (-) TimerEvent: {}
+[16.643901] (-) TimerEvent: {}
+[16.744242] (-) TimerEvent: {}
+[16.844532] (-) TimerEvent: {}
+[16.944936] (-) TimerEvent: {}
+[17.045215] (-) TimerEvent: {}
+[17.145483] (-) TimerEvent: {}
+[17.245774] (-) TimerEvent: {}
+[17.346103] (-) TimerEvent: {}
+[17.446490] (-) TimerEvent: {}
+[17.546805] (-) TimerEvent: {}
+[17.647153] (-) TimerEvent: {}
+[17.747564] (-) TimerEvent: {}
+[17.847961] (-) TimerEvent: {}
+[17.948331] (-) TimerEvent: {}
+[18.048692] (-) TimerEvent: {}
+[18.149070] (-) TimerEvent: {}
+[18.249369] (-) TimerEvent: {}
+[18.349756] (-) TimerEvent: {}
+[18.450082] (-) TimerEvent: {}
+[18.550457] (-) TimerEvent: {}
+[18.650856] (-) TimerEvent: {}
+[18.751275] (-) TimerEvent: {}
+[18.851581] (-) TimerEvent: {}
+[18.952001] (-) TimerEvent: {}
+[19.052431] (-) TimerEvent: {}
+[19.152833] (-) TimerEvent: {}
+[19.253147] (-) TimerEvent: {}
+[19.353437] (-) TimerEvent: {}
+[19.453704] (-) TimerEvent: {}
+[19.553979] (-) TimerEvent: {}
+[19.654288] (-) TimerEvent: {}
+[19.754659] (-) TimerEvent: {}
+[19.855061] (-) TimerEvent: {}
+[19.955387] (-) TimerEvent: {}
+[20.055722] (-) TimerEvent: {}
+[20.156073] (-) TimerEvent: {}
+[20.256454] (-) TimerEvent: {}
+[20.356778] (-) TimerEvent: {}
+[20.457312] (-) TimerEvent: {}
+[20.557633] (-) TimerEvent: {}
+[20.657913] (-) TimerEvent: {}
+[20.758156] (-) TimerEvent: {}
+[20.858489] (-) TimerEvent: {}
+[20.958773] (-) TimerEvent: {}
+[21.059108] (-) TimerEvent: {}
+[21.159533] (-) TimerEvent: {}
+[21.259867] (-) TimerEvent: {}
+[21.360261] (-) TimerEvent: {}
+[21.460594] (-) TimerEvent: {}
+[21.560928] (-) TimerEvent: {}
+[21.661270] (-) TimerEvent: {}
+[21.761658] (-) TimerEvent: {}
+[21.861965] (-) TimerEvent: {}
+[21.962301] (-) TimerEvent: {}
+[22.062676] (-) TimerEvent: {}
+[22.163019] (-) TimerEvent: {}
+[22.263382] (-) TimerEvent: {}
+[22.363864] (-) TimerEvent: {}
+[22.464140] (-) TimerEvent: {}
+[22.564695] (-) TimerEvent: {}
+[22.664936] (-) TimerEvent: {}
+[22.765291] (-) TimerEvent: {}
+[22.865566] (-) TimerEvent: {}
+[22.965813] (-) TimerEvent: {}
+[23.066099] (-) TimerEvent: {}
+[23.166390] (-) TimerEvent: {}
+[23.266755] (-) TimerEvent: {}
+[23.367006] (-) TimerEvent: {}
+[23.467306] (-) TimerEvent: {}
+[23.567607] (-) TimerEvent: {}
+[23.667878] (-) TimerEvent: {}
+[23.768243] (-) TimerEvent: {}
+[23.868603] (-) TimerEvent: {}
+[23.968984] (-) TimerEvent: {}
+[24.069254] (-) TimerEvent: {}
+[24.169540] (-) TimerEvent: {}
+[24.269867] (-) TimerEvent: {}
+[24.370177] (-) TimerEvent: {}
+[24.470452] (-) TimerEvent: {}
+[24.570813] (-) TimerEvent: {}
+[24.671131] (-) TimerEvent: {}
+[24.771450] (-) TimerEvent: {}
+[24.871806] (-) TimerEvent: {}
+[24.972137] (-) TimerEvent: {}
+[25.072416] (-) TimerEvent: {}
+[25.172733] (-) TimerEvent: {}
+[25.273076] (-) TimerEvent: {}
+[25.373323] (-) TimerEvent: {}
+[25.438685] (webots_ros2_driver) StdoutLine: {'line': b'[  0%] Built target compile-lib-controller\n'}
+[25.473482] (-) TimerEvent: {}
+[25.573751] (-) TimerEvent: {}
+[25.615207] (webots_ros2_driver) StdoutLine: {'line': b'[  0%] Built target compile-generic-window\n'}
+[25.673881] (-) TimerEvent: {}
+[25.774214] (-) TimerEvent: {}
+[25.874542] (-) TimerEvent: {}
+[25.974903] (-) TimerEvent: {}
+[26.075255] (-) TimerEvent: {}
+[26.175701] (-) TimerEvent: {}
+[26.276039] (-) TimerEvent: {}
+[26.376387] (-) TimerEvent: {}
+[26.476730] (-) TimerEvent: {}
+[26.577111] (-) TimerEvent: {}
+[26.677511] (-) TimerEvent: {}
+[26.777796] (-) TimerEvent: {}
+[26.777987] (webots_ros2_driver) StdoutLine: {'line': b'[  0%] Built target compile-lib-vehicle\n'}
+[26.795041] (webots_ros2_driver) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/driver.dir/src/WebotsNode.cpp.o\x1b[0m\n'}
+[26.795246] (webots_ros2_driver) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/utils/Utils.cpp.o\x1b[0m\n'}
+[26.795316] (webots_ros2_driver) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/plugins/dynamic/Ros2IMU.cpp.o\x1b[0m\n'}
+[26.795376] (webots_ros2_driver) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_driver_rgbd.dir/src/plugins/dynamic/Ros2RGBD.cpp.o\x1b[0m\n'}
+[26.795435] (webots_ros2_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/driver.dir/src/Driver.cpp.o\x1b[0m\n'}
+[26.795493] (webots_ros2_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_driver_imu.dir/src/plugins/Ros2SensorPlugin.cpp.o\x1b[0m\n'}
+[26.795549] (webots_ros2_driver) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_driver_rgbd.dir/src/utils/Utils.cpp.o\x1b[0m\n'}
+[26.795672] (webots_ros2_driver) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/webots_ros2_driver_rgbd.dir/src/plugins/Ros2SensorPlugin.cpp.o\x1b[0m\n'}
+[26.877907] (-) TimerEvent: {}
+[26.978492] (-) TimerEvent: {}
+[27.078795] (-) TimerEvent: {}
+[27.179185] (-) TimerEvent: {}
+[27.228417] (webots_ros2_driver) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/Ros2SensorPlugin.cpp.o\x1b[0m\n'}
+[27.230370] (webots_ros2_driver) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/driver.dir/src/PythonPlugin.cpp.o\x1b[0m\n'}
+[27.279295] (-) TimerEvent: {}
+[27.385087] (-) TimerEvent: {}
+[27.485449] (-) TimerEvent: {}
+[27.585781] (-) TimerEvent: {}
+[27.686112] (-) TimerEvent: {}
+[27.786444] (-) TimerEvent: {}
+[27.886778] (-) TimerEvent: {}
+[27.987107] (-) TimerEvent: {}
+[28.087443] (-) TimerEvent: {}
+[28.187770] (-) TimerEvent: {}
+[28.288112] (-) TimerEvent: {}
+[28.388491] (-) TimerEvent: {}
+[28.488867] (-) TimerEvent: {}
+[28.589292] (-) TimerEvent: {}
+[28.689645] (-) TimerEvent: {}
+[28.789984] (-) TimerEvent: {}
+[28.890322] (-) TimerEvent: {}
+[28.990668] (-) TimerEvent: {}
+[29.090994] (-) TimerEvent: {}
+[29.191320] (-) TimerEvent: {}
+[29.291646] (-) TimerEvent: {}
+[29.392041] (-) TimerEvent: {}
+[29.492450] (-) TimerEvent: {}
+[29.592795] (-) TimerEvent: {}
+[29.693255] (-) TimerEvent: {}
+[29.793717] (-) TimerEvent: {}
+[29.894107] (-) TimerEvent: {}
+[29.994466] (-) TimerEvent: {}
+[30.094807] (-) TimerEvent: {}
+[30.195144] (-) TimerEvent: {}
+[30.295573] (-) TimerEvent: {}
+[30.396037] (-) TimerEvent: {}
+[30.496447] (-) TimerEvent: {}
+[30.596953] (-) TimerEvent: {}
+[30.697470] (-) TimerEvent: {}
+[30.797975] (-) TimerEvent: {}
+[30.898460] (-) TimerEvent: {}
+[30.998955] (-) TimerEvent: {}
+[31.099465] (-) TimerEvent: {}
+[31.199862] (-) TimerEvent: {}
+[31.300265] (-) TimerEvent: {}
+[31.400654] (-) TimerEvent: {}
+[31.501166] (-) TimerEvent: {}
+[31.601660] (-) TimerEvent: {}
+[31.702183] (-) TimerEvent: {}
+[31.802688] (-) TimerEvent: {}
+[31.903155] (-) TimerEvent: {}
+[32.003659] (-) TimerEvent: {}
+[32.104191] (-) TimerEvent: {}
+[32.204907] (-) TimerEvent: {}
+[32.305411] (-) TimerEvent: {}
+[32.373554] (webots_ros2_driver) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Lidar.cpp.o\x1b[0m\n'}
+[32.373903] (webots_ros2_driver) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2LED.cpp.o\x1b[0m\n'}
+[32.401682] (webots_ros2_driver) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Pen.cpp.o\x1b[0m\n'}
+[32.405533] (-) TimerEvent: {}
+[32.506023] (-) TimerEvent: {}
+[32.606394] (-) TimerEvent: {}
+[32.685392] (webots_ros2_driver) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2Camera.cpp.o\x1b[0m\n'}
+[32.706515] (-) TimerEvent: {}
+[32.742219] (webots_ros2_driver) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2GPS.cpp.o\x1b[0m\n'}
+[32.806640] (-) TimerEvent: {}
+[32.907138] (-) TimerEvent: {}
+[33.007634] (-) TimerEvent: {}
+[33.108138] (-) TimerEvent: {}
+[33.208524] (-) TimerEvent: {}
+[33.309006] (-) TimerEvent: {}
+[33.409483] (-) TimerEvent: {}
+[33.509975] (-) TimerEvent: {}
+[33.610360] (-) TimerEvent: {}
+[33.710760] (-) TimerEvent: {}
+[33.811151] (-) TimerEvent: {}
+[33.911534] (-) TimerEvent: {}
+[34.011965] (-) TimerEvent: {}
+[34.112347] (-) TimerEvent: {}
+[34.212727] (-) TimerEvent: {}
+[34.313086] (-) TimerEvent: {}
+[34.413454] (-) TimerEvent: {}
+[34.513848] (-) TimerEvent: {}
+[34.614198] (-) TimerEvent: {}
+[34.714553] (-) TimerEvent: {}
+[34.814907] (-) TimerEvent: {}
+[34.886735] (webots_ros2_driver) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libwebots_ros2_driver_imu.so\x1b[0m\n'}
+[34.915022] (-) TimerEvent: {}
+[34.969697] (webots_ros2_driver) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libwebots_ros2_driver_rgbd.so\x1b[0m\n'}
+[35.015138] (-) TimerEvent: {}
+[35.115462] (-) TimerEvent: {}
+[35.215789] (-) TimerEvent: {}
+[35.314224] (webots_ros2_driver) StdoutLine: {'line': b'[ 62%] Built target webots_ros2_driver_imu\n'}
+[35.315891] (-) TimerEvent: {}
+[35.325680] (webots_ros2_driver) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2RangeFinder.cpp.o\x1b[0m\n'}
+[35.328986] (webots_ros2_driver) StdoutLine: {'line': b'[ 66%] Built target webots_ros2_driver_rgbd\n'}
+[35.340482] (webots_ros2_driver) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/driver.dir/src/plugins/static/Ros2DistanceSensor.cpp.o\x1b[0m\n'}
+[35.416009] (-) TimerEvent: {}
+[35.516360] (-) TimerEvent: {}
+[35.616721] (-) TimerEvent: {}
+[35.717062] (-) TimerEvent: {}
+[35.817390] (-) TimerEvent: {}
+[35.918863] (-) TimerEvent: {}
+[36.019218] (-) TimerEvent: {}
+[36.119613] (-) TimerEvent: {}
+[36.219982] (-) TimerEvent: {}
+[36.320324] (-) TimerEvent: {}
+[36.420680] (-) TimerEvent: {}
+[36.521039] (-) TimerEvent: {}
+[36.621383] (-) TimerEvent: {}
+[36.721724] (-) TimerEvent: {}
+[36.822062] (-) TimerEvent: {}
+[36.922392] (-) TimerEvent: {}
+[37.022724] (-) TimerEvent: {}
+[37.123053] (-) TimerEvent: {}
+[37.223412] (-) TimerEvent: {}
+[37.323753] (-) TimerEvent: {}
+[37.424086] (-) TimerEvent: {}
+[37.524416] (-) TimerEvent: {}
+[37.624748] (-) TimerEvent: {}
+[37.725077] (-) TimerEvent: {}
+[37.829088] (-) TimerEvent: {}
+[37.931516] (-) TimerEvent: {}
+[38.031982] (-) TimerEvent: {}
+[38.132357] (-) TimerEvent: {}
+[38.238512] (-) TimerEvent: {}
+[50.658200] (-) TimerEvent: {}

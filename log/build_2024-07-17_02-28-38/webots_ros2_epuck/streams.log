@@ -1,0 +1,23 @@
+[1.407s] Invoking command in '/home/minji/minji_ws/webots_ros2/webots_ros2_epuck': CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_control:/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:/home/minji/minji_ws/install/btcpp_ros2_samples:/home/minji/minji_ws/install/btcpp_ros2_project:/home/minji/minji_ws/install/behaviortree_ros2:/home/minji/minji_ws/install/btcpp_ros2_interfaces:/usr/local PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_epuck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_epuck build --build-base /home/minji/minji_ws/build/webots_ros2_epuck/build install --record /home/minji/minji_ws/build/webots_ros2_epuck/install.log --single-version-externally-managed install_data
+[1.634s] running egg_info
+[1.634s] writing ../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/PKG-INFO
+[1.635s] writing dependency_links to ../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/dependency_links.txt
+[1.635s] writing entry points to ../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/entry_points.txt
+[1.635s] writing requirements to ../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/requires.txt
+[1.635s] writing top-level names to ../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/top_level.txt
+[1.636s] reading manifest file '../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[1.637s] writing manifest file '../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[1.637s] running build
+[1.637s] running build_py
+[1.638s] running install
+[1.638s] running install_lib
+[1.639s] running install_data
+[1.639s] running install_egg_info
+[1.641s] removing '/home/minji/minji_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck-2023.1.2-py3.10.egg-info' (and everything under it)
+[1.641s] Copying ../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info to /home/minji/minji_ws/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck-2023.1.2-py3.10.egg-info
+[1.641s] running install_scripts
+[1.657s] Installing drive_calibrator script to /home/minji/minji_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[1.658s] Installing epuck_node script to /home/minji/minji_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[1.658s] Installing simple_mapper script to /home/minji/minji_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[1.658s] writing list of installed files to '/home/minji/minji_ws/build/webots_ros2_epuck/install.log'
+[1.682s] Invoked command in '/home/minji/minji_ws/webots_ros2/webots_ros2_epuck' returned '0': CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_control:/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:/home/minji/minji_ws/install/btcpp_ros2_samples:/home/minji/minji_ws/install/btcpp_ros2_project:/home/minji/minji_ws/install/behaviortree_ros2:/home/minji/minji_ws/install/btcpp_ros2_interfaces:/usr/local PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_epuck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_epuck build --build-base /home/minji/minji_ws/build/webots_ros2_epuck/build install --record /home/minji/minji_ws/build/webots_ros2_epuck/install.log --single-version-externally-managed install_data

@@ -1,0 +1,47 @@
+[1.091s] Invoking command in '/home/minji/minji_ws/webots_ros2/webots_ros2_turtlebot': AMENT_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_control:/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_control:/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/minji/minji_ws/install/webots_ros2_control/lib:/home/minji/minji_ws/install/webots_ros2_driver/lib:/home/minji/minji_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_turtlebot build --build-base /home/minji/minji_ws/build/webots_ros2_turtlebot/build install --record /home/minji/minji_ws/build/webots_ros2_turtlebot/install.log --single-version-externally-managed install_data
+[1.365s] running egg_info
+[1.365s] creating ../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info
+[1.366s] writing ../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/PKG-INFO
+[1.366s] writing dependency_links to ../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/dependency_links.txt
+[1.366s] writing entry points to ../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/entry_points.txt
+[1.366s] writing requirements to ../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/requires.txt
+[1.366s] writing top-level names to ../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/top_level.txt
+[1.367s] writing manifest file '../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[1.369s] reading manifest file '../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[1.371s] writing manifest file '../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[1.371s] running build
+[1.372s] running build_py
+[1.372s] creating /home/minji/minji_ws/build/webots_ros2_turtlebot/build
+[1.372s] creating /home/minji/minji_ws/build/webots_ros2_turtlebot/build/lib
+[1.372s] creating /home/minji/minji_ws/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot
+[1.372s] copying webots_ros2_turtlebot/__init__.py -> /home/minji/minji_ws/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot
+[1.372s] copying webots_ros2_turtlebot/plugin_example.py -> /home/minji/minji_ws/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot
+[1.373s] running install
+[1.374s] running install_lib
+[1.376s] creating /home/minji/minji_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot
+[1.376s] copying /home/minji/minji_ws/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot/__init__.py -> /home/minji/minji_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot
+[1.376s] copying /home/minji/minji_ws/build/webots_ros2_turtlebot/build/lib/webots_ros2_turtlebot/plugin_example.py -> /home/minji/minji_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot
+[1.377s] byte-compiling /home/minji/minji_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot/__init__.py to __init__.cpython-310.pyc
+[1.377s] byte-compiling /home/minji/minji_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot/plugin_example.py to plugin_example.cpython-310.pyc
+[1.377s] running install_data
+[1.377s] creating /home/minji/minji_ws/install/webots_ros2_turtlebot/share/ament_index
+[1.377s] creating /home/minji/minji_ws/install/webots_ros2_turtlebot/share/ament_index/resource_index
+[1.378s] creating /home/minji/minji_ws/install/webots_ros2_turtlebot/share/ament_index/resource_index/packages
+[1.378s] copying resource/webots_ros2_turtlebot -> /home/minji/minji_ws/install/webots_ros2_turtlebot/share/ament_index/resource_index/packages
+[1.378s] creating /home/minji/minji_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/launch
+[1.378s] copying launch/robot_launch.py -> /home/minji/minji_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/launch
+[1.379s] creating /home/minji/minji_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[1.379s] copying resource/turtlebot3_burger_example_map.pgm -> /home/minji/minji_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[1.379s] copying resource/turtlebot3_burger_example_map.yaml -> /home/minji/minji_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[1.380s] copying resource/turtlebot_webots.urdf -> /home/minji/minji_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[1.380s] copying resource/ros2control.yml -> /home/minji/minji_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[1.380s] copying resource/nav2_params.yaml -> /home/minji/minji_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/resource
+[1.380s] creating /home/minji/minji_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[1.380s] copying worlds/turtlebot3_burger_example.wbt -> /home/minji/minji_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[1.381s] copying worlds/.turtlebot3_burger_example.wbproj -> /home/minji/minji_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot/worlds
+[1.381s] copying package.xml -> /home/minji/minji_ws/install/webots_ros2_turtlebot/share/webots_ros2_turtlebot
+[1.381s] running install_egg_info
+[1.381s] Copying ../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info to /home/minji/minji_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot-2023.1.2-py3.10.egg-info
+[1.382s] running install_scripts
+[1.405s] writing list of installed files to '/home/minji/minji_ws/build/webots_ros2_turtlebot/install.log'
+[1.444s] Invoked command in '/home/minji/minji_ws/webots_ros2/webots_ros2_turtlebot' returned '0': AMENT_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_control:/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_control:/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/minji/minji_ws/install/webots_ros2_control/lib:/home/minji/minji_ws/install/webots_ros2_driver/lib:/home/minji/minji_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_turtlebot build --build-base /home/minji/minji_ws/build/webots_ros2_turtlebot/build install --record /home/minji/minji_ws/build/webots_ros2_turtlebot/install.log --single-version-externally-managed install_data

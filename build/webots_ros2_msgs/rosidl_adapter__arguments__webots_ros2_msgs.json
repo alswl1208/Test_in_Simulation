@@ -1,0 +1,17 @@
+{
+  "package_name": "webots_ros2_msgs",
+  "non_idl_tuples": [
+    "/home/minji/minji_ws/webots_ros2/webots_ros2_msgs:msg/BoolStamped.msg",
+    "/home/minji/minji_ws/webots_ros2/webots_ros2_msgs:msg/FloatStamped.msg",
+    "/home/minji/minji_ws/webots_ros2/webots_ros2_msgs:msg/StringStamped.msg",
+    "/home/minji/minji_ws/webots_ros2/webots_ros2_msgs:msg/CameraRecognitionObject.msg",
+    "/home/minji/minji_ws/webots_ros2/webots_ros2_msgs:msg/CameraRecognitionObjects.msg",
+    "/home/minji/minji_ws/webots_ros2/webots_ros2_msgs:msg/UrdfRobot.msg",
+    "/home/minji/minji_ws/webots_ros2/webots_ros2_msgs:msg/PenInkProperties.msg",
+    "/home/minji/minji_ws/webots_ros2/webots_ros2_msgs:srv/EmitterSendString.srv",
+    "/home/minji/minji_ws/webots_ros2/webots_ros2_msgs:srv/GetBool.srv",
+    "/home/minji/minji_ws/webots_ros2/webots_ros2_msgs:srv/SetString.srv",
+    "/home/minji/minji_ws/webots_ros2/webots_ros2_msgs:srv/SpawnNodeFromString.srv",
+    "/home/minji/minji_ws/webots_ros2/webots_ros2_msgs:srv/SpawnUrdfRobot.srv"
+  ]
+}

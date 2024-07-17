@@ -1,0 +1,43 @@
+[0.803s] Invoking command in '/home/minji/minji_ws/webots_ros2/webots_ros2_tests': AMENT_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_universal_robot:/home/minji/minji_ws/install/webots_ros2_turtlebot:/home/minji/minji_ws/install/webots_ros2_tiago:/home/minji/minji_ws/install/webots_ros2_epuck:/home/minji/minji_ws/install/webots_ros2_tesla:/home/minji/minji_ws/install/webots_ros2_mavic:/home/minji/minji_ws/install/webots_ros2_control:/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_control:/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/minji/minji_ws/install/webots_ros2_control/lib:/home/minji/minji_ws/install/webots_ros2_driver/lib:/home/minji/minji_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_tests/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_universal_robot/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_tiago/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_tesla/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_mavic/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_tests build --build-base /home/minji/minji_ws/build/webots_ros2_tests/build install --record /home/minji/minji_ws/build/webots_ros2_tests/install.log --single-version-externally-managed install_data
+[1.106s] running egg_info
+[1.106s] creating ../../build/webots_ros2_tests/webots_ros2_tests.egg-info
+[1.106s] writing ../../build/webots_ros2_tests/webots_ros2_tests.egg-info/PKG-INFO
+[1.107s] writing dependency_links to ../../build/webots_ros2_tests/webots_ros2_tests.egg-info/dependency_links.txt
+[1.107s] writing requirements to ../../build/webots_ros2_tests/webots_ros2_tests.egg-info/requires.txt
+[1.107s] writing top-level names to ../../build/webots_ros2_tests/webots_ros2_tests.egg-info/top_level.txt
+[1.107s] writing manifest file '../../build/webots_ros2_tests/webots_ros2_tests.egg-info/SOURCES.txt'
+[1.117s] reading manifest file '../../build/webots_ros2_tests/webots_ros2_tests.egg-info/SOURCES.txt'
+[1.118s] writing manifest file '../../build/webots_ros2_tests/webots_ros2_tests.egg-info/SOURCES.txt'
+[1.118s] running build
+[1.118s] running build_py
+[1.119s] creating /home/minji/minji_ws/build/webots_ros2_tests/build
+[1.119s] creating /home/minji/minji_ws/build/webots_ros2_tests/build/lib
+[1.119s] creating /home/minji/minji_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests
+[1.119s] copying webots_ros2_tests/__init__.py -> /home/minji/minji_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests
+[1.119s] copying webots_ros2_tests/utils.py -> /home/minji/minji_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests
+[1.119s] copying webots_ros2_tests/plugin_test.py -> /home/minji/minji_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests
+[1.119s] running install
+[1.119s] running install_lib
+[1.120s] creating /home/minji/minji_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests
+[1.120s] copying /home/minji/minji_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests/__init__.py -> /home/minji/minji_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests
+[1.120s] copying /home/minji/minji_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests/utils.py -> /home/minji/minji_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests
+[1.120s] copying /home/minji/minji_ws/build/webots_ros2_tests/build/lib/webots_ros2_tests/plugin_test.py -> /home/minji/minji_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests
+[1.121s] byte-compiling /home/minji/minji_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests/__init__.py to __init__.cpython-310.pyc
+[1.121s] byte-compiling /home/minji/minji_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests/utils.py to utils.cpython-310.pyc
+[1.122s] byte-compiling /home/minji/minji_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests/plugin_test.py to plugin_test.cpython-310.pyc
+[1.122s] running install_data
+[1.122s] creating /home/minji/minji_ws/install/webots_ros2_tests/share/ament_index
+[1.122s] creating /home/minji/minji_ws/install/webots_ros2_tests/share/ament_index/resource_index
+[1.123s] creating /home/minji/minji_ws/install/webots_ros2_tests/share/ament_index/resource_index/packages
+[1.123s] copying resource/webots_ros2_tests -> /home/minji/minji_ws/install/webots_ros2_tests/share/ament_index/resource_index/packages
+[1.123s] copying package.xml -> /home/minji/minji_ws/install/webots_ros2_tests/share/webots_ros2_tests
+[1.123s] creating /home/minji/minji_ws/install/webots_ros2_tests/share/webots_ros2_tests/worlds
+[1.123s] copying worlds/driver_test.wbt -> /home/minji/minji_ws/install/webots_ros2_tests/share/webots_ros2_tests/worlds
+[1.123s] copying worlds/.driver_test.wbproj -> /home/minji/minji_ws/install/webots_ros2_tests/share/webots_ros2_tests/worlds
+[1.123s] creating /home/minji/minji_ws/install/webots_ros2_tests/share/webots_ros2_tests/resource
+[1.123s] copying resource/driver_test.urdf -> /home/minji/minji_ws/install/webots_ros2_tests/share/webots_ros2_tests/resource
+[1.123s] running install_egg_info
+[1.126s] Copying ../../build/webots_ros2_tests/webots_ros2_tests.egg-info to /home/minji/minji_ws/install/webots_ros2_tests/lib/python3.10/site-packages/webots_ros2_tests-2023.1.2-py3.10.egg-info
+[1.126s] running install_scripts
+[1.150s] writing list of installed files to '/home/minji/minji_ws/build/webots_ros2_tests/install.log'
+[1.176s] Invoked command in '/home/minji/minji_ws/webots_ros2/webots_ros2_tests' returned '0': AMENT_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_universal_robot:/home/minji/minji_ws/install/webots_ros2_turtlebot:/home/minji/minji_ws/install/webots_ros2_tiago:/home/minji/minji_ws/install/webots_ros2_epuck:/home/minji/minji_ws/install/webots_ros2_tesla:/home/minji/minji_ws/install/webots_ros2_mavic:/home/minji/minji_ws/install/webots_ros2_control:/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_control:/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/minji/minji_ws/install/webots_ros2_control/lib:/home/minji/minji_ws/install/webots_ros2_driver/lib:/home/minji/minji_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_tests/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_universal_robot/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_tiago/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_tesla/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_mavic/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_tests build --build-base /home/minji/minji_ws/build/webots_ros2_tests/build install --record /home/minji/minji_ws/build/webots_ros2_tests/install.log --single-version-externally-managed install_data

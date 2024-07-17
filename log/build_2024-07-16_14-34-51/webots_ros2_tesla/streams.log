@@ -1,0 +1,47 @@
+[1.169s] Invoking command in '/home/minji/minji_ws/webots_ros2/webots_ros2_tesla': AMENT_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/minji/minji_ws/install/webots_ros2_driver/lib:/home/minji/minji_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_tesla/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_tesla/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_tesla build --build-base /home/minji/minji_ws/build/webots_ros2_tesla/build install --record /home/minji/minji_ws/build/webots_ros2_tesla/install.log --single-version-externally-managed install_data
+[1.414s] running egg_info
+[1.414s] creating ../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info
+[1.414s] writing ../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/PKG-INFO
+[1.415s] writing dependency_links to ../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/dependency_links.txt
+[1.415s] writing entry points to ../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/entry_points.txt
+[1.415s] writing requirements to ../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/requires.txt
+[1.415s] writing top-level names to ../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/top_level.txt
+[1.415s] writing manifest file '../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/SOURCES.txt'
+[1.418s] reading manifest file '../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/SOURCES.txt'
+[1.419s] writing manifest file '../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/SOURCES.txt'
+[1.419s] running build
+[1.419s] running build_py
+[1.419s] creating /home/minji/minji_ws/build/webots_ros2_tesla/build
+[1.419s] creating /home/minji/minji_ws/build/webots_ros2_tesla/build/lib
+[1.419s] creating /home/minji/minji_ws/build/webots_ros2_tesla/build/lib/webots_ros2_tesla
+[1.420s] copying webots_ros2_tesla/__init__.py -> /home/minji/minji_ws/build/webots_ros2_tesla/build/lib/webots_ros2_tesla
+[1.420s] copying webots_ros2_tesla/tesla_driver.py -> /home/minji/minji_ws/build/webots_ros2_tesla/build/lib/webots_ros2_tesla
+[1.420s] copying webots_ros2_tesla/lane_follower.py -> /home/minji/minji_ws/build/webots_ros2_tesla/build/lib/webots_ros2_tesla
+[1.421s] running install
+[1.421s] running install_lib
+[1.422s] creating /home/minji/minji_ws/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla
+[1.422s] copying /home/minji/minji_ws/build/webots_ros2_tesla/build/lib/webots_ros2_tesla/__init__.py -> /home/minji/minji_ws/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla
+[1.422s] copying /home/minji/minji_ws/build/webots_ros2_tesla/build/lib/webots_ros2_tesla/tesla_driver.py -> /home/minji/minji_ws/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla
+[1.422s] copying /home/minji/minji_ws/build/webots_ros2_tesla/build/lib/webots_ros2_tesla/lane_follower.py -> /home/minji/minji_ws/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla
+[1.423s] byte-compiling /home/minji/minji_ws/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla/__init__.py to __init__.cpython-310.pyc
+[1.423s] byte-compiling /home/minji/minji_ws/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla/tesla_driver.py to tesla_driver.cpython-310.pyc
+[1.424s] byte-compiling /home/minji/minji_ws/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla/lane_follower.py to lane_follower.cpython-310.pyc
+[1.425s] running install_data
+[1.425s] creating /home/minji/minji_ws/install/webots_ros2_tesla/share/ament_index
+[1.425s] creating /home/minji/minji_ws/install/webots_ros2_tesla/share/ament_index/resource_index
+[1.425s] creating /home/minji/minji_ws/install/webots_ros2_tesla/share/ament_index/resource_index/packages
+[1.425s] copying resource/webots_ros2_tesla -> /home/minji/minji_ws/install/webots_ros2_tesla/share/ament_index/resource_index/packages
+[1.425s] creating /home/minji/minji_ws/install/webots_ros2_tesla/share/webots_ros2_tesla/launch
+[1.425s] copying launch/robot_launch.py -> /home/minji/minji_ws/install/webots_ros2_tesla/share/webots_ros2_tesla/launch
+[1.426s] creating /home/minji/minji_ws/install/webots_ros2_tesla/share/webots_ros2_tesla/worlds
+[1.426s] copying worlds/tesla_world.wbt -> /home/minji/minji_ws/install/webots_ros2_tesla/share/webots_ros2_tesla/worlds
+[1.426s] copying worlds/.tesla_world.wbproj -> /home/minji/minji_ws/install/webots_ros2_tesla/share/webots_ros2_tesla/worlds
+[1.426s] creating /home/minji/minji_ws/install/webots_ros2_tesla/share/webots_ros2_tesla/resource
+[1.426s] copying resource/tesla_webots.urdf -> /home/minji/minji_ws/install/webots_ros2_tesla/share/webots_ros2_tesla/resource
+[1.427s] copying package.xml -> /home/minji/minji_ws/install/webots_ros2_tesla/share/webots_ros2_tesla
+[1.427s] running install_egg_info
+[1.429s] Copying ../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info to /home/minji/minji_ws/install/webots_ros2_tesla/lib/python3.10/site-packages/webots_ros2_tesla-2023.1.2-py3.10.egg-info
+[1.431s] running install_scripts
+[1.460s] Installing lane_follower script to /home/minji/minji_ws/install/webots_ros2_tesla/lib/webots_ros2_tesla
+[1.461s] writing list of installed files to '/home/minji/minji_ws/build/webots_ros2_tesla/install.log'
+[1.497s] Invoked command in '/home/minji/minji_ws/webots_ros2/webots_ros2_tesla' returned '0': AMENT_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/minji/minji_ws/install/webots_ros2_driver/lib:/home/minji/minji_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_tesla/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_tesla/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_tesla build --build-base /home/minji/minji_ws/build/webots_ros2_tesla/build install --record /home/minji/minji_ws/build/webots_ros2_tesla/install.log --single-version-externally-managed install_data

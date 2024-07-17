@@ -1,0 +1,10 @@
+<launch>
+  <!-- Behavior Tree Executor Node -->
+  <node pkg="btcpp_ros2_project" exec="project_bt_executor" name="project_bt_executor" output="screen">
+    <param name="bt_xml_file" value="$(find-pkg-share btcpp_ros2_project)/behavior_trees/inspection_tree.xml"/>
+    <param name="groot_port" value="1666"/>
+  </node>
+
+  <!-- Camera Node -->
+  <node pkg="your_camera_package" exec="camera_node" name="camera_node" output="screen"/>
+</launch>

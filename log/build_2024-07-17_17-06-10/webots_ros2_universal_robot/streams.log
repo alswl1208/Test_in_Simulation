@@ -1,0 +1,22 @@
+[1.554s] Invoking command in '/home/minji/minji_ws/webots_ros2/webots_ros2_universal_robot': PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_universal_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_universal_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_universal_robot build --build-base /home/minji/minji_ws/build/webots_ros2_universal_robot/build install --record /home/minji/minji_ws/build/webots_ros2_universal_robot/install.log --single-version-externally-managed install_data
+[1.790s] running egg_info
+[1.791s] writing ../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info/PKG-INFO
+[1.791s] writing dependency_links to ../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info/dependency_links.txt
+[1.791s] writing entry points to ../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info/entry_points.txt
+[1.791s] writing requirements to ../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info/requires.txt
+[1.791s] writing top-level names to ../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info/top_level.txt
+[1.793s] reading manifest file '../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info/SOURCES.txt'
+[1.794s] writing manifest file '../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info/SOURCES.txt'
+[1.794s] running build
+[1.794s] running build_py
+[1.795s] running install
+[1.795s] running install_lib
+[1.796s] running install_data
+[1.798s] running install_egg_info
+[1.799s] removing '/home/minji/minji_ws/install/webots_ros2_universal_robot/lib/python3.10/site-packages/webots_ros2_universal_robot-2023.1.2-py3.10.egg-info' (and everything under it)
+[1.800s] Copying ../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info to /home/minji/minji_ws/install/webots_ros2_universal_robot/lib/python3.10/site-packages/webots_ros2_universal_robot-2023.1.2-py3.10.egg-info
+[1.800s] running install_scripts
+[1.818s] Installing abb_controller script to /home/minji/minji_ws/install/webots_ros2_universal_robot/lib/webots_ros2_universal_robot
+[1.818s] Installing ur5e_controller script to /home/minji/minji_ws/install/webots_ros2_universal_robot/lib/webots_ros2_universal_robot
+[1.818s] writing list of installed files to '/home/minji/minji_ws/build/webots_ros2_universal_robot/install.log'
+[1.840s] Invoked command in '/home/minji/minji_ws/webots_ros2/webots_ros2_universal_robot' returned '0': PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_universal_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_universal_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_universal_robot build --build-base /home/minji/minji_ws/build/webots_ros2_universal_robot/build install --record /home/minji/minji_ws/build/webots_ros2_universal_robot/install.log --single-version-externally-managed install_data

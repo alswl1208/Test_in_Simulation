@@ -1,0 +1,24 @@
+[1.540s] Invoking command in '/home/minji/minji_ws/webots_ros2_ld90': CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:/home/minji/minji_ws/install/webots_ros2_control:/home/minji/minji_ws/install/btcpp_ros2_samples:/home/minji/minji_ws/install/btcpp_ros2_project:/home/minji/minji_ws/install/behaviortree_ros2:/home/minji/minji_ws/install/btcpp_ros2_interfaces:/usr/local LD_LIBRARY_PATH=/home/minji/minji_ws/install/webots_ros2_driver/lib:/home/minji/minji_ws/install/webots_ros2_msgs/lib:/home/minji/minji_ws/install/webots_ros2_control/lib:/home/minji/minji_ws/install/behaviortree_ros2/lib:/home/minji/minji_ws/install/btcpp_ros2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_ld90/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_ld90/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/webots_ros2_ld90 build --build-base /home/minji/minji_ws/build/webots_ros2_ld90/build install --record /home/minji/minji_ws/build/webots_ros2_ld90/install.log --single-version-externally-managed install_data
+[1.759s] running egg_info
+[1.761s] writing ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/PKG-INFO
+[1.762s] writing dependency_links to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/dependency_links.txt
+[1.762s] writing entry points to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/entry_points.txt
+[1.762s] writing requirements to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/requires.txt
+[1.762s] writing top-level names to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/top_level.txt
+[1.763s] reading manifest file '../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/SOURCES.txt'
+[1.763s] adding license file 'LICENSE'
+[1.764s] writing manifest file '../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/SOURCES.txt'
+[1.764s] running build
+[1.764s] running build_py
+[1.764s] running install
+[1.765s] running install_lib
+[1.765s] running install_data
+[1.766s] running install_egg_info
+[1.767s] removing '/home/minji/minji_ws/install/webots_ros2_ld90/lib/python3.10/site-packages/webots_ros2_ld90-0.0.0-py3.10.egg-info' (and everything under it)
+[1.768s] Copying ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info to /home/minji/minji_ws/install/webots_ros2_ld90/lib/python3.10/site-packages/webots_ros2_ld90-0.0.0-py3.10.egg-info
+[1.769s] running install_scripts
+[1.786s] Installing camera_node script to /home/minji/minji_ws/install/webots_ros2_ld90/lib/webots_ros2_ld90
+[1.787s] Installing my_controller_ld90 script to /home/minji/minji_ws/install/webots_ros2_ld90/lib/webots_ros2_ld90
+[1.787s] Installing my_controller_salus script to /home/minji/minji_ws/install/webots_ros2_ld90/lib/webots_ros2_ld90
+[1.787s] writing list of installed files to '/home/minji/minji_ws/build/webots_ros2_ld90/install.log'
+[1.813s] Invoked command in '/home/minji/minji_ws/webots_ros2_ld90' returned '0': CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:/home/minji/minji_ws/install/webots_ros2_control:/home/minji/minji_ws/install/btcpp_ros2_samples:/home/minji/minji_ws/install/btcpp_ros2_project:/home/minji/minji_ws/install/behaviortree_ros2:/home/minji/minji_ws/install/btcpp_ros2_interfaces:/usr/local LD_LIBRARY_PATH=/home/minji/minji_ws/install/webots_ros2_driver/lib:/home/minji/minji_ws/install/webots_ros2_msgs/lib:/home/minji/minji_ws/install/webots_ros2_control/lib:/home/minji/minji_ws/install/behaviortree_ros2/lib:/home/minji/minji_ws/install/btcpp_ros2_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_ld90/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_ld90/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/webots_ros2_ld90 build --build-base /home/minji/minji_ws/build/webots_ros2_ld90/build install --record /home/minji/minji_ws/build/webots_ros2_ld90/install.log --single-version-externally-managed install_data

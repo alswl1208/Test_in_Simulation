@@ -1,0 +1,20 @@
+[1.241s] Invoking command in '/home/minji/minji_ws/webots_ros2/webots_ros2_turtlebot': CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_control:/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:/home/minji/minji_ws/install/btcpp_ros2_samples:/home/minji/minji_ws/install/btcpp_ros2_project:/home/minji/minji_ws/install/behaviortree_ros2:/home/minji/minji_ws/install/btcpp_ros2_interfaces:/usr/local PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_turtlebot build --build-base /home/minji/minji_ws/build/webots_ros2_turtlebot/build install --record /home/minji/minji_ws/build/webots_ros2_turtlebot/install.log --single-version-externally-managed install_data
+[1.536s] running egg_info
+[1.536s] writing ../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/PKG-INFO
+[1.536s] writing dependency_links to ../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/dependency_links.txt
+[1.537s] writing entry points to ../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/entry_points.txt
+[1.537s] writing requirements to ../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/requires.txt
+[1.537s] writing top-level names to ../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/top_level.txt
+[1.538s] reading manifest file '../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[1.539s] writing manifest file '../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[1.539s] running build
+[1.539s] running build_py
+[1.539s] running install
+[1.539s] running install_lib
+[1.540s] running install_data
+[1.540s] running install_egg_info
+[1.542s] removing '/home/minji/minji_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot-2023.1.2-py3.10.egg-info' (and everything under it)
+[1.542s] Copying ../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info to /home/minji/minji_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages/webots_ros2_turtlebot-2023.1.2-py3.10.egg-info
+[1.543s] running install_scripts
+[1.561s] writing list of installed files to '/home/minji/minji_ws/build/webots_ros2_turtlebot/install.log'
+[1.583s] Invoked command in '/home/minji/minji_ws/webots_ros2/webots_ros2_turtlebot' returned '0': CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_control:/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:/home/minji/minji_ws/install/btcpp_ros2_samples:/home/minji/minji_ws/install/btcpp_ros2_project:/home/minji/minji_ws/install/behaviortree_ros2:/home/minji/minji_ws/install/btcpp_ros2_interfaces:/usr/local PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_turtlebot build --build-base /home/minji/minji_ws/build/webots_ros2_turtlebot/build install --record /home/minji/minji_ws/build/webots_ros2_turtlebot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,25 @@
+[2.149s] Invoking command in '/home/minji/minji_ws/webots_ros2_ld90': AMENT_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/minji/minji_ws/install/webots_ros2_driver/lib:/home/minji/minji_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_ld90/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_ld90/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/webots_ros2_ld90 build --build-base /home/minji/minji_ws/build/webots_ros2_ld90/build install --record /home/minji/minji_ws/build/webots_ros2_ld90/install.log --single-version-externally-managed install_data
+[2.656s] running egg_info
+[2.658s] writing ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/PKG-INFO
+[2.659s] writing dependency_links to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/dependency_links.txt
+[2.659s] writing entry points to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/entry_points.txt
+[2.659s] writing requirements to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/requires.txt
+[2.659s] writing top-level names to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/top_level.txt
+[2.663s] reading manifest file '../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/SOURCES.txt'
+[2.663s] adding license file 'LICENSE'
+[2.665s] writing manifest file '../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/SOURCES.txt'
+[2.665s] running build
+[2.665s] running build_py
+[2.666s] running install
+[2.666s] running install_lib
+[2.668s] running install_data
+[2.669s] copying launch/robot_launch.py -> /home/minji/minji_ws/install/webots_ros2_ld90/share/webots_ros2_ld90/launch
+[2.670s] running install_egg_info
+[2.673s] removing '/home/minji/minji_ws/install/webots_ros2_ld90/lib/python3.10/site-packages/webots_ros2_ld90-0.0.0-py3.10.egg-info' (and everything under it)
+[2.673s] Copying ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info to /home/minji/minji_ws/install/webots_ros2_ld90/lib/python3.10/site-packages/webots_ros2_ld90-0.0.0-py3.10.egg-info
+[2.674s] running install_scripts
+[2.711s] Installing camera_node script to /home/minji/minji_ws/install/webots_ros2_ld90/lib/webots_ros2_ld90
+[2.711s] Installing my_controller_ld90 script to /home/minji/minji_ws/install/webots_ros2_ld90/lib/webots_ros2_ld90
+[2.712s] Installing my_controller_salus script to /home/minji/minji_ws/install/webots_ros2_ld90/lib/webots_ros2_ld90
+[2.712s] writing list of installed files to '/home/minji/minji_ws/build/webots_ros2_ld90/install.log'
+[2.756s] Invoked command in '/home/minji/minji_ws/webots_ros2_ld90' returned '0': AMENT_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/minji/minji_ws/install/webots_ros2_driver/lib:/home/minji/minji_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_ld90/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_ld90/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/webots_ros2_ld90 build --build-base /home/minji/minji_ws/build/webots_ros2_ld90/build install --record /home/minji/minji_ws/build/webots_ros2_ld90/install.log --single-version-externally-managed install_data

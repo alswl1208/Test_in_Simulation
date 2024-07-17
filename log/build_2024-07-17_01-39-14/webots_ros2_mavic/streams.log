@@ -1,0 +1,20 @@
+[2.159s] Invoking command in '/home/minji/minji_ws/webots_ros2/webots_ros2_mavic': AMENT_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/minji/minji_ws/install/webots_ros2_driver/lib:/home/minji/minji_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_mavic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_mavic/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_mavic build --build-base /home/minji/minji_ws/build/webots_ros2_mavic/build install --record /home/minji/minji_ws/build/webots_ros2_mavic/install.log --single-version-externally-managed install_data
+[2.505s] running egg_info
+[2.507s] writing ../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/PKG-INFO
+[2.516s] writing dependency_links to ../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/dependency_links.txt
+[2.516s] writing entry points to ../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/entry_points.txt
+[2.517s] writing requirements to ../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/requires.txt
+[2.518s] writing top-level names to ../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/top_level.txt
+[2.523s] reading manifest file '../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/SOURCES.txt'
+[2.525s] writing manifest file '../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/SOURCES.txt'
+[2.525s] running build
+[2.526s] running build_py
+[2.527s] running install
+[2.528s] running install_lib
+[2.530s] running install_data
+[2.531s] running install_egg_info
+[2.534s] removing '/home/minji/minji_ws/install/webots_ros2_mavic/lib/python3.10/site-packages/webots_ros2_mavic-2023.1.2-py3.10.egg-info' (and everything under it)
+[2.536s] Copying ../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info to /home/minji/minji_ws/install/webots_ros2_mavic/lib/python3.10/site-packages/webots_ros2_mavic-2023.1.2-py3.10.egg-info
+[2.538s] running install_scripts
+[2.575s] writing list of installed files to '/home/minji/minji_ws/build/webots_ros2_mavic/install.log'
+[2.621s] Invoked command in '/home/minji/minji_ws/webots_ros2/webots_ros2_mavic' returned '0': AMENT_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/minji_ws/install/webots_ros2_driver:/home/minji/minji_ws/install/webots_ros2_msgs${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/minji/minji_ws/install/webots_ros2_driver/lib:/home/minji/minji_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/minji_ws/build/webots_ros2_mavic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/minji_ws/install/webots_ros2_mavic/lib/python3.10/site-packages:/home/minji/minji_ws/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/minji/minji_ws/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_mavic build --build-base /home/minji/minji_ws/build/webots_ros2_mavic/build install --record /home/minji/minji_ws/build/webots_ros2_mavic/install.log --single-version-externally-managed install_data
