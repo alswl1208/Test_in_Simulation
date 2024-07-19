@@ -35,9 +35,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'my_controller_ld90 = webots_ros2_ld90.controllers.my_controller_ld90.my_controller_ld90:main',
-            'my_controller_salus = webots_ros2_ld90.controllers.my_controller_salus.my_controller_salus:main',
-            'camera_node = webots_ros2_ld90.controllers.camera_node:main',
+            
         ],
     },
 )
