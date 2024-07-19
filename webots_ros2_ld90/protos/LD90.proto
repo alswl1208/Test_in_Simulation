@@ -62,6 +62,10 @@ PROTO LD90 [
         translation 0.037646 0 0.349
         children IS bodySlot
       }         
+      # Add SalusSuite here
+      SalusSuite {
+        # SalusSuite specific settings can be added here if needed
+      }
       Pose { # CAD Shape
         rotation 0.577350 0.577350 0.577350 2.094395
         children [
