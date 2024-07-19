@@ -1,0 +1,43 @@
+[1.089s] Invoking command in '/home/minji/test_folder/Test_in_Simulation/webots_ros2/webots_ros2_mavic': AMENT_PREFIX_PATH=/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver/lib:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/test_folder/Test_in_Simulation/build/webots_ros2_mavic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/lib/python3.10/site-packages:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_mavic build --build-base /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_mavic/build install --record /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_mavic/install.log --single-version-externally-managed install_data
+[1.358s] running egg_info
+[1.359s] creating ../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info
+[1.359s] writing ../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/PKG-INFO
+[1.359s] writing dependency_links to ../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/dependency_links.txt
+[1.359s] writing entry points to ../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/entry_points.txt
+[1.359s] writing requirements to ../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/requires.txt
+[1.359s] writing top-level names to ../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/top_level.txt
+[1.359s] writing manifest file '../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/SOURCES.txt'
+[1.362s] reading manifest file '../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/SOURCES.txt'
+[1.363s] writing manifest file '../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/SOURCES.txt'
+[1.363s] running build
+[1.363s] running build_py
+[1.363s] creating /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_mavic/build
+[1.363s] creating /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_mavic/build/lib
+[1.363s] creating /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_mavic/build/lib/webots_ros2_mavic
+[1.363s] copying webots_ros2_mavic/__init__.py -> /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_mavic/build/lib/webots_ros2_mavic
+[1.363s] copying webots_ros2_mavic/mavic_driver.py -> /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_mavic/build/lib/webots_ros2_mavic
+[1.364s] running install
+[1.364s] running install_lib
+[1.365s] creating /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/lib/python3.10/site-packages/webots_ros2_mavic
+[1.365s] copying /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_mavic/build/lib/webots_ros2_mavic/__init__.py -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/lib/python3.10/site-packages/webots_ros2_mavic
+[1.365s] copying /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_mavic/build/lib/webots_ros2_mavic/mavic_driver.py -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/lib/python3.10/site-packages/webots_ros2_mavic
+[1.366s] byte-compiling /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/lib/python3.10/site-packages/webots_ros2_mavic/__init__.py to __init__.cpython-310.pyc
+[1.366s] byte-compiling /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/lib/python3.10/site-packages/webots_ros2_mavic/mavic_driver.py to mavic_driver.cpython-310.pyc
+[1.367s] running install_data
+[1.367s] creating /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/share/ament_index
+[1.367s] creating /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/share/ament_index/resource_index
+[1.367s] creating /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/share/ament_index/resource_index/packages
+[1.368s] copying resource/webots_ros2_mavic -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/share/ament_index/resource_index/packages
+[1.368s] creating /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/share/webots_ros2_mavic/launch
+[1.368s] copying launch/robot_launch.py -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/share/webots_ros2_mavic/launch
+[1.368s] creating /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/share/webots_ros2_mavic/worlds
+[1.368s] copying worlds/mavic_world.wbt -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/share/webots_ros2_mavic/worlds
+[1.368s] copying worlds/.mavic_world.wbproj -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/share/webots_ros2_mavic/worlds
+[1.369s] creating /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/share/webots_ros2_mavic/resource
+[1.369s] copying resource/mavic_webots.urdf -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/share/webots_ros2_mavic/resource
+[1.369s] copying package.xml -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/share/webots_ros2_mavic
+[1.369s] running install_egg_info
+[1.371s] Copying ../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info to /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/lib/python3.10/site-packages/webots_ros2_mavic-2023.1.2-py3.10.egg-info
+[1.371s] running install_scripts
+[1.392s] writing list of installed files to '/home/minji/test_folder/Test_in_Simulation/build/webots_ros2_mavic/install.log'
+[1.419s] Invoked command in '/home/minji/test_folder/Test_in_Simulation/webots_ros2/webots_ros2_mavic' returned '0': AMENT_PREFIX_PATH=/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver/lib:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/test_folder/Test_in_Simulation/build/webots_ros2_mavic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_mavic/lib/python3.10/site-packages:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_mavic build --build-base /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_mavic/build install --record /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_mavic/install.log --single-version-externally-managed install_data

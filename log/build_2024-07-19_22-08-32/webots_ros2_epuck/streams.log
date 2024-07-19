@@ -1,0 +1,69 @@
+[1.256s] Invoking command in '/home/minji/test_folder/Test_in_Simulation/webots_ros2/webots_ros2_epuck': AMENT_PREFIX_PATH=/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_control:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_control:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_control/lib:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver/lib:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_epuck build --build-base /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/build install --record /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/install.log --single-version-externally-managed install_data
+[1.494s] running egg_info
+[1.494s] creating ../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info
+[1.494s] writing ../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/PKG-INFO
+[1.494s] writing dependency_links to ../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/dependency_links.txt
+[1.494s] writing entry points to ../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/entry_points.txt
+[1.494s] writing requirements to ../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/requires.txt
+[1.495s] writing top-level names to ../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/top_level.txt
+[1.495s] writing manifest file '../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[1.496s] reading manifest file '../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[1.497s] writing manifest file '../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[1.497s] running build
+[1.497s] running build_py
+[1.497s] creating /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/build
+[1.497s] creating /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/build/lib
+[1.497s] creating /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[1.497s] copying webots_ros2_epuck/__init__.py -> /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[1.505s] copying webots_ros2_epuck/drive_calibrator.py -> /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[1.505s] copying webots_ros2_epuck/epuck_node.py -> /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[1.505s] copying webots_ros2_epuck/simple_mapper.py -> /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/build/lib/webots_ros2_epuck
+[1.506s] running install
+[1.506s] running install_lib
+[1.507s] creating /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[1.507s] copying /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/__init__.py -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[1.507s] copying /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/drive_calibrator.py -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[1.508s] copying /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/epuck_node.py -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[1.508s] copying /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/build/lib/webots_ros2_epuck/simple_mapper.py -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck
+[1.508s] byte-compiling /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/__init__.py to __init__.cpython-310.pyc
+[1.508s] byte-compiling /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/drive_calibrator.py to drive_calibrator.cpython-310.pyc
+[1.509s] byte-compiling /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/epuck_node.py to epuck_node.cpython-310.pyc
+[1.510s] byte-compiling /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck/simple_mapper.py to simple_mapper.cpython-310.pyc
+[1.512s] running install_data
+[1.512s] creating /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/ament_index
+[1.512s] creating /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/ament_index/resource_index
+[1.512s] creating /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/ament_index/resource_index/packages
+[1.512s] copying resource/webots_ros2_epuck -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/ament_index/resource_index/packages
+[1.512s] creating /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[1.512s] copying launch/robot_launch.py -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[1.513s] copying launch/robot_tools_launch.py -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[1.513s] copying launch/rats_life_launch.py -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[1.513s] copying launch/rats_life_waypoints_launch.py -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/launch
+[1.513s] creating /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[1.513s] copying worlds/epuck_world.wbt -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[1.514s] copying worlds/.epuck_world.wbproj -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[1.514s] copying worlds/rats_life_benchmark.wbt -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[1.514s] copying worlds/.rats_life_benchmark.wbproj -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/worlds
+[1.514s] creating /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/protos
+[1.515s] copying protos/LegoTallInterval.proto -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/protos
+[1.515s] copying protos/LegoTallWall.proto -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/protos
+[1.515s] creating /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.515s] copying resource/all.rviz -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.515s] copying resource/nav2_params.yaml -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.516s] copying resource/nav2_params_iron.yaml -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.516s] copying resource/map_rats_life.pgm -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.516s] copying resource/map_rats_life.yaml -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.516s] copying resource/nav2_rats_life_waypoints.yaml -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.517s] copying resource/epuck_world_map.pgm -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.517s] copying resource/epuck_world_map.yaml -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.517s] copying resource/epuck_webots.urdf -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.517s] copying resource/ros2_control.yml -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck/resource
+[1.517s] copying package.xml -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/share/webots_ros2_epuck
+[1.517s] running install_egg_info
+[1.519s] Copying ../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info to /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/lib/python3.10/site-packages/webots_ros2_epuck-2023.1.2-py3.10.egg-info
+[1.520s] running install_scripts
+[1.548s] Installing drive_calibrator script to /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[1.548s] Installing epuck_node script to /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[1.548s] Installing simple_mapper script to /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[1.549s] writing list of installed files to '/home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/install.log'
+[1.593s] Invoked command in '/home/minji/test_folder/Test_in_Simulation/webots_ros2/webots_ros2_epuck' returned '0': AMENT_PREFIX_PATH=/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_control:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_control:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_control/lib:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver/lib:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_epuck/lib/python3.10/site-packages:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_driver/local/lib/python3.10/dist-packages:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_ros2_epuck build --build-base /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/build install --record /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_epuck/install.log --single-version-externally-managed install_data

@@ -1,0 +1,22 @@
+[0.515s] Invoking command in '/home/minji/test_folder/Test_in_Simulation/webots_ros2_ld90': PYTHONPATH=/home/minji/test_folder/Test_in_Simulation/build/webots_ros2_ld90/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_ld90/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/webots_ros2_ld90 build --build-base /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_ld90/build install --record /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_ld90/install.log --single-version-externally-managed install_data
+[0.715s] running egg_info
+[0.715s] writing ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/PKG-INFO
+[0.716s] writing dependency_links to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/dependency_links.txt
+[0.716s] writing entry points to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/entry_points.txt
+[0.716s] writing requirements to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/requires.txt
+[0.716s] writing top-level names to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/top_level.txt
+[0.717s] reading manifest file '../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/SOURCES.txt'
+[0.717s] adding license file 'LICENSE'
+[0.718s] writing manifest file '../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/SOURCES.txt'
+[0.718s] running build
+[0.718s] running build_py
+[0.718s] running install
+[0.718s] running install_lib
+[0.719s] running install_data
+[0.719s] copying launch/robot_launch.py -> /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_ld90/share/webots_ros2_ld90/launch
+[0.723s] running install_egg_info
+[0.725s] removing '/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_ld90/lib/python3.10/site-packages/webots_ros2_ld90-0.0.0-py3.10.egg-info' (and everything under it)
+[0.725s] Copying ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info to /home/minji/test_folder/Test_in_Simulation/install/webots_ros2_ld90/lib/python3.10/site-packages/webots_ros2_ld90-0.0.0-py3.10.egg-info
+[0.725s] running install_scripts
+[0.741s] writing list of installed files to '/home/minji/test_folder/Test_in_Simulation/build/webots_ros2_ld90/install.log'
+[0.760s] Invoked command in '/home/minji/test_folder/Test_in_Simulation/webots_ros2_ld90' returned '0': PYTHONPATH=/home/minji/test_folder/Test_in_Simulation/build/webots_ros2_ld90/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minji/test_folder/Test_in_Simulation/install/webots_ros2_ld90/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/webots_ros2_ld90 build --build-base /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_ld90/build install --record /home/minji/test_folder/Test_in_Simulation/build/webots_ros2_ld90/install.log --single-version-externally-managed install_data
