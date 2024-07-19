@@ -18,7 +18,6 @@ data_files.append(('share/' + package_name + '/worlds', ['worlds/no_human.wbt'])
 data_files.append(('share/' + package_name + '/resource', ['resource/ros2control.yaml']))
 data_files.append(('share/' + package_name + '/resource', ['resource/LD90.urdf']))
 data_files.append(('share/' + package_name + '/launch', ['launch/robot_launch.py']))
-data_files.append(('lib/' + package_name + '/controllers/my_controller_salus', ['controllers/my_controller_salus/my_controller_salus.py']))
 data_files.append(('share/' + package_name, ['package.xml']))
 
 setup(
@@ -35,7 +34,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            
-        ],
+                
+            ],
     },
 )

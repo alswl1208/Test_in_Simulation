@@ -33,5 +33,10 @@ LD90 {
   #hidden rotation_5 0 0 1 3.6476598995199474
   translation 0.32080577283492556 1.3855692416142013e-10 0.08577175284755842
   rotation -1.947348494634876e-05 0.999999999810342 3.146876610245927e-07 8.213112020069477e-05
+<<<<<<< HEAD
   controller "my_controller_salus"
+
+  #controller "my_controller_salus"
+  controller "<extern>"
+  
 }

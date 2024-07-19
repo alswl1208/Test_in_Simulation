@@ -10,6 +10,7 @@ from webots_ros2_driver.webots_controller import WebotsController
 from webots_ros2_driver.wait_for_controller_connection import WaitForControllerConnection
 from launch_ros.actions import Node
 
+
 def generate_launch_description():
     package_dir = get_package_share_directory('webots_ros2_ld90')
     
@@ -96,7 +97,10 @@ def generate_launch_description():
         package='webots_ros2_ld90',
         executable='my_controller_salus',
         name='camera_node',
-        output='screen'
+        output='screen',
+        parameters=[{
+            'use_sim_time': use_sim_time
+        }],
     )
 
     return LaunchDescription([

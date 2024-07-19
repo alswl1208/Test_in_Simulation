@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """my_controller_salus controller."""
 
 # You may need to import some classes of the controller module. Ex:
@@ -10,8 +11,22 @@ robot = Robot()
 
 # get the time step of the current world.
 timestep = int(robot.getBasicTimeStep())
+=======
+from controller import Robot
 
+def main():
+    robot = Robot()
+    timestep = int(robot.getBasicTimeStep())
+>>>>>>> c76e620 (필요없는 부분 제거)
 
+    camera_360 = robot.getDevice('camera_360')
+    if camera_360:
+        camera_360.enable(timestep)
+    else:
+        print("360_camera device not found")
+        return
+
+<<<<<<< HEAD
 
 # You should insert a getDevice-like function in order to get the
 # instance of a device of the robot. Something like:
@@ -46,3 +61,10 @@ while robot.step(timestep) != -1:
 
 # Enter here exit cleanup code.
  
+
+    while robot.step(timestep) != -1:
+        # Your control code here
+        pass
+
+if __name__ == '__main__':
+    main()
